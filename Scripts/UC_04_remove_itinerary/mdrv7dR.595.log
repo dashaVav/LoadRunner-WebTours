@@ -1,0 +1,2551 @@
+Virtual User Script started at: 06.02.2024 21:07:46	[MsgId: MMSG-15967]
+Starting action vuser_init.	[MsgId: MMSG-15919]
+Web Turbo Replay of LoadRunner 2020.0.0 for Windows 10; build 793 (ноя 27 2019 19:51:20)  	[MsgId: MMSG-26983]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36  	[MsgId: MMSG-26988]
+Runtime Settings file: "C:\Users\HUAWEI\AppData\Local\Temp\lr5tmpdirE8B.32\lrcfgU7u.33\cfg2az.34"  	[MsgId: MMSG-27141]
+Vuser directory: "C:\Users\HUAWEI\Documents\LoadRunner_WebTours\Scripts\UC_04_remove_itinerary"  	[MsgId: MMSG-27052]
+Vuser output directory: "C:\Users\HUAWEI\Documents\LoadRunner_WebTours\Scripts\UC_04_remove_itinerary"  	[MsgId: MMSG-27050]
+Operating system's current working directory: "C:\Users\HUAWEI\Documents\LoadRunner_WebTours\Scripts\UC_04_remove_itinerary"  	[MsgId: MMSG-27048]
+UTC (GMT) start date/time   : 2024-02-06 18:07:46  	[MsgId: MMSG-26992]
+LOCAL start date/time       : 2024-02-06 21:07:46  	[MsgId: MMSG-26991]
+Local daylight-Savings-Time : No  	[MsgId: MMSG-26990]
+Some of the Runtime Settings:  	[MsgId: MMSG-27142]
+    Download non-HTML resources: Yes  	[MsgId: MMSG-27018]
+    Verification checks: No  	[MsgId: MMSG-27017]
+    Convert from/to UTF-8: No  	[MsgId: MMSG-27016]
+    Simulate a new user each iteration: Yes  	[MsgId: MMSG-27009]
+    Non-critical item errors as warnings: Yes  	[MsgId: MMSG-27008]
+    HTTP errors as warnings: No  	[MsgId: MMSG-27007]
+    WinInet replay instead of Sockets: No  	[MsgId: MMSG-27006]
+    HTTP version: 1.1  	[MsgId: MMSG-27005]
+    Keep-Alive HTTP connections: Yes  	[MsgId: MMSG-27004]
+    Max self Meta refresh updates: 2  	[MsgId: MMSG-27003]
+    No proxy is used (direct connection to the Internet)  	[MsgId: MMSG-27171]
+    DNS caching: Yes  	[MsgId: MMSG-27035]
+    Simulate browser cache: Yes  	[MsgId: MMSG-27034]
+        Cache URLs requiring content (e.g., HTMLs): Yes  	[MsgId: MMSG-27033]
+            Additional URLs requiring content: None  	[MsgId: MMSG-27032]
+        Check for newer versions every visit to the page: No  	[MsgId: MMSG-27031]
+    Page download timeout (sec): 120  	[MsgId: MMSG-27030]
+    Resource Page Timeout is a Warning: No  	[MsgId: MMSG-27029]
+    ContentCheck enabled: Yes  	[MsgId: MMSG-27028]
+    ContentCheck script-level file: "C:\Users\HUAWEI\AppData\Local\Temp\lr5tmpdirE8B.32\lrcfgU7u.33\LrwiAedScript.xml"  	[MsgId: MMSG-27027]
+    Enable Web Page Breakdown: Yes  	[MsgId: MMSG-27026]
+    Enable connection data points: Yes  	[MsgId: MMSG-27023]
+    Process socket after reschedule: Yes  	[MsgId: MMSG-27022]
+    Snapshot on error: No  	[MsgId: MMSG-27021]
+    Define each step as a transaction: No  	[MsgId: MMSG-27020]
+    Read beyond Content-Length: No  	[MsgId: MMSG-26994]
+    Parse HTML Content-Type: TEXT  	[MsgId: MMSG-26999]
+    Graph hits per second and HTTP status codes: Yes  	[MsgId: MMSG-26998]
+    Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
+    Graph pages per second: No  	[MsgId: MMSG-26996]
+    Web recorder version ID: 10  	[MsgId: MMSG-26995]
+Ending action vuser_init.	[MsgId: MMSG-15918]
+Running Vuser...	[MsgId: MMSG-15964]
+Starting iteration 1.	[MsgId: MMSG-15968]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action Action.	[MsgId: MMSG-15919]
+Action.c(6): Notify: Transaction "UC_04_remove_itinerary" started.	[MsgId: MMSG-16999]
+Action.c(9): Notify: Transaction "open_main_page" started.	[MsgId: MMSG-16999]
+Action.c(11): web_add_auto_header("Sec-Fetch-Dest") started  	[MsgId: MMSG-26355]
+Action.c(11): An unrecognized header ("Sec-Fetch-Dest") is being added  	[MsgId: MMSG-26595]
+Action.c(11): "Sec-Fetch-Dest: frame" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(11): web_add_auto_header("Sec-Fetch-Dest") was successful  	[MsgId: MMSG-26392]
+Action.c(14): web_add_auto_header("Sec-Fetch-Mode") started  	[MsgId: MMSG-26355]
+Action.c(14): An unrecognized header ("Sec-Fetch-Mode") is being added  	[MsgId: MMSG-26595]
+Action.c(14): "Sec-Fetch-Mode: navigate" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(14): web_add_auto_header("Sec-Fetch-Mode") was successful  	[MsgId: MMSG-26392]
+Action.c(17): web_add_auto_header("Sec-Fetch-Site") started  	[MsgId: MMSG-26355]
+Action.c(17): An unrecognized header ("Sec-Fetch-Site") is being added  	[MsgId: MMSG-26595]
+Action.c(17): "Sec-Fetch-Site: same-origin" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(17): web_add_auto_header("Sec-Fetch-Site") was successful  	[MsgId: MMSG-26392]
+Action.c(20): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(20): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(20): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(20): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(24): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(24): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(33): web_reg_save_param started  	[MsgId: MMSG-26355]
+Action.c(33): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+Action.c(38): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(38): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(39): web_url("welcome.pl") started  	[MsgId: MMSG-26355]
+Action.c(39): t=185ms: Connecting [0] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(39): t=185ms: Connected socket [0] from 127.0.0.1:55560 to 127.0.0.1:8090 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=185ms: 482-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+Action.c(39):     GET /WebTours/welcome.pl?signOff=true HTTP/1.1\r\n
+Action.c(39):     Referer: http://127.0.0.1:8090/WebTours/\r\n
+Action.c(39):     Sec-Fetch-Dest: frame\r\n
+Action.c(39):     Sec-Fetch-Mode: navigate\r\n
+Action.c(39):     Sec-Fetch-Site: same-origin\r\n
+Action.c(39):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(39):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(39):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 127.0.0.1:8090\r\n
+Action.c(39):     \r\n
+Action.c(39): t=404ms: 386-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Cache-control: no-cache\r\n
+Action.c(39):     Expires: 0\r\n
+Action.c(39):     Content-length: 630\r\n
+Action.c(39):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Set-cookie: MTUserInfo=; path=/; expires=Mon, 05-Feb-2024 18:07:46 GMT\r\n
+Action.c(39):     Set-cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&
+Action.c(39):     50; path=/\r\n
+Action.c(39):     \r\n
+Action.c(39): Notify: Saving Parameter "SID = 1707242866".	[MsgId: MMSG-13798]
+Action.c(39): t=405ms: 630-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true" (RelFrameId=1, Internal ID=1)
+Action.c(39):     <!-- \n
+Action.c(39):      A Session ID has been created and loaded into a cookie called MSO.\n
+Action.c(39):      Also, the server options have been loaded into the cookie called\n
+Action.c(39):      MSO as well.  The server options can be set via the Admin page.\n
+Action.c(39):      --->\n
+Action.c(39):     \n
+Action.c(39):     <html>\n
+Action.c(39):     <title>Web Tours</title>\n
+Action.c(39):        <!-- Frame Set -->\n
+Action.c(39):        <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(39):           <!-- Navigation Frame -->\n
+Action.c(39):           <frame src=nav.pl?in=home name=navbar marginheight=2 marginwidth=2 \n
+Action.c(39):                 noresize scrolling=auto>\n
+Action.c(39):           <!-- Home Frame -->\n
+Action.c(39):           <frame src=/WebTours/home.html name=info marginheight=2 marginwidth=2 \n
+Action.c(39):                 noresize scrolling=auto>\n
+Action.c(39):        </frameset>\n
+Action.c(39):     \n
+Action.c(39):     </body>\n
+Action.c(39):     </html>
+Action.c(39): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?in=home" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(39): Detected non-resource "http://127.0.0.1:8090/WebTours/home.html" in "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(39): t=405ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"  	[MsgId: MMSG-26000]
+Action.c(39): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+Action.c(39): t=405ms: Connecting [1] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(39): t=406ms: Connecting [2] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(39): t=406ms: Connected socket [1] from 127.0.0.1:55561 to 127.0.0.1:8090 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=406ms: 586-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+Action.c(39):     GET /WebTours/nav.pl?in=home HTTP/1.1\r\n
+Action.c(39):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+Action.c(39):     Sec-Fetch-Dest: frame\r\n
+Action.c(39):     Sec-Fetch-Mode: navigate\r\n
+Action.c(39):     Sec-Fetch-Site: same-origin\r\n
+Action.c(39):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(39):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(39):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 127.0.0.1:8090\r\n
+Action.c(39):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Action.c(39):     \n
+Action.c(39):     \r\n
+Action.c(39): t=406ms: Connected socket [2] from 127.0.0.1:55562 to 127.0.0.1:8090 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(39): t=406ms: 581-byte request headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+Action.c(39):     GET /WebTours/home.html HTTP/1.1\r\n
+Action.c(39):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true\r\n
+Action.c(39):     Sec-Fetch-Dest: frame\r\n
+Action.c(39):     Sec-Fetch-Mode: navigate\r\n
+Action.c(39):     Sec-Fetch-Site: same-origin\r\n
+Action.c(39):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(39):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(39):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 127.0.0.1:8090\r\n
+Action.c(39):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Action.c(39):     \n
+Action.c(39):     \r\n
+Action.c(39): t=413ms: 165-byte response headers for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Content-type: text/html\r\n
+Action.c(39):     Content-length: 1322\r\n
+Action.c(39):     Last-modified: Tue, 28 Feb 2017 19:12:27 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): t=414ms: 1322-byte response body for "http://127.0.0.1:8090/WebTours/home.html" (RelFrameId=1.2, Internal ID=3)
+Action.c(39):     <HTML>\n
+Action.c(39):     <HEAD>\n
+Action.c(39):     \t<title>Web Tours</title>\n
+Action.c(39):     </head>\n
+Action.c(39):     <style>\n
+Action.c(39):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(39):     \tH1 {font-family: tahoma; font-size : 22pt; color: #003366}\n
+Action.c(39):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(39):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(39):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(39):     N: none}\n
+Action.c(39):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(39):     CORATION: underline}\n
+Action.c(39):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(39):     </style>\n
+Action.c(39):     <body bgcolor=#e0e7f1>\n
+Action.c(39):     <BR>\n
+Action.c(39):     <BR>\n
+Action.c(39):     <BR>\n
+Action.c(39):     <br >\n
+Action.c(39):     <table border=0>\n
+Action.c(39):     <tr><td></td></tr>\n
+Action.c(39):     <TR><TD></TD></TR>\n
+Action.c(39):     <TR><TD>\n
+Action.c(39):     <blockquote>\n
+Action.c(39):     <H1><b>Web Tours</b></H1>\n
+Action.c(39):     Welcome to the Web Tours site.\n
+Action.c(39):     <br>\n
+Action.c(39):     To make reservations,please enter your account information to the left.\n
+Action.c(39):     <br>\n
+Action.c(39):     If you haven't registered yet, <A href="login.pl?username=&amp;password=&amp;getInfo=true"
+Action.c(39):      ><B>sign up now</B></A> to get access to all our resources.\n
+Action.c(39):     <br>\n
+Action.c(39):     To configure the server options, use <A href="admin.pl" target=body ><b>administration</b>
+Action.c(39):     </A> link.\n
+Action.c(39):     <br><br><br><br><br><br>\n
+Action.c(39):     <br><small>\n
+Action.c(39):     This product uses parts of the SMT Kernel, Copyright (c) 1991-99 <A href="http://www.imati
+Action.c(39):     x.com" target=new><B><small>iMatix Corporation</small></B></A> \n
+Action.c(39):     </small>\n
+Action.c(39):     </blockquote></TD>\n
+Action.c(39):     <TD></TD></TR>\n
+Action.c(39):     </table>\n
+Action.c(39):     </body>\n
+Action.c(39):     </html>\n
+Action.c(39): t=414ms: Request done "http://127.0.0.1:8090/WebTours/home.html"  	[MsgId: MMSG-26000]
+Action.c(39): Search registration for "userSession" parameter is filtered by "Request URL"  	[MsgId: MMSG-26000]
+Action.c(39): t=635ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Cache-control: no-cache\r\n
+Action.c(39):     Expires: 0\r\n
+Action.c(39):     Content-length: 2757\r\n
+Action.c(39):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Expires: Mon, 05 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): t=635ms: 2757-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?in=home" (RelFrameId=1.1, Internal ID=2)
+Action.c(39):     <!-- Comments option is ON \n
+Action.c(39):     \n
+Action.c(39):     These are used to make the automated parsing difficult.\n
+Action.c(39):     User must try and get the UserSession value.  There are several here, with similar boundar
+Action.c(39):     ies.\n
+Action.c(39):     But none are the right value.\n
+Action.c(39):     \n
+Action.c(39):     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">\n
+Action.c(39):     <HTML><HEAD><TITLE>Web Tours Navigation Bar</TITLE>\n
+Action.c(39):     <style>\n
+Action.c(39):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(39):     \tH1 {font-family: tahoma; font-size : 22pt;color: #993333}\n
+Action.c(39):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(39):     </style>\n
+Action.c(39):     </HEAD><BODY BGCOLOR="#E0E7F1"><br clear>\n
+Action.c(39):     <form method=post action=login.pl target=body>\n
+Action.c(39):     <input type=hidden name=userSession value=5854138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf>
+Action.c(39):     \n
+Action.c(39):     <form method=post action=error.pl onSubmit='doJSformSubmit1(this)' target=body>\n
+Action.c(39):     <input type=hidden name=userSession value=1138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf>\n
+Action.c(39):     <table border=0>\n
+Action.c(39):     <tr><td><font face=sans-serif size=2>&nbsp;</font><td><tr>\n
+Action.c(39):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Username</b></font><td><tr>\n
+Action.c(39):     <tr><td><input type=text name=username value='' size=18 maxlength=30>\n
+Action.c(39):     <tr><td><font face=sans-serif size=2>&nbsp;<b>Password</b></font>\n
+Action.c(39):     <tr><td><input type=password name=password value='' size=18 maxlength=30>\n
+Action.c(39):     <tr><td><input type=image name=login value=Login alt=Login border=1 src='/WebTours/images/
+Action.c(39):     mer_login.gif'>\n
+Action.c(39):     </table></form>\n
+Action.c(39):     </BODY></HTML>\n
+Action.c(39):     -->\n
+Action.c(39):     <!DOCTYPE html\n
+Action.c(39):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(39):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(39):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(39):     <head>\n
+Action.c(39):     <title>Web Tours Navigation Bar</title>\n
+Action.c(39):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(39):     </head>\n
+Action.c(39):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Action.c(39):     <style>\n
+Action.c(39):     blockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(39):     H1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(39):     H3 {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(39):     small {font-family: tahoma; font-size : 8pt}\n
+Action.c(39):     </style>\n
+Action.c(39):     <form method=post action=login.pl target=body>\n
+Action.c(39):     <input type=hidden name=userSession value=138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf>\n
+Action.c(39):     <table border=0><tr><td>&nbsp;</td>\n
+Action.c(39):     <td>&nbsp;</td>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td>&nbsp;</td></tr>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td><small>&nbsp;Username</small></td></tr>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td><input type=text name=username value='' size=14 maxlength=14></td></tr>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td><small>&nbsp;Password</small></td>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td><input type=password name=password value='' size=14 maxlength=14></td></tr>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td>&nbsp;<tr><td>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     <td><input type=image name=login value=Login alt=Login border=1 \n
+Action.c(39):     src='/WebTours/images/mer_login.gif'>\n
+Action.c(39):     <tr><td>&nbsp;</td>\n
+Action.c(39):     </table><input type=hidden name=JSFormSubmit value='off'>\n
+Action.c(39):     </form>\n
+Action.c(39):     \n
+Action.c(39):     </body>\n
+Action.c(39):     </html>\n
+Action.c(39): Found resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(39): Found resource "http://127.0.0.1:8090/WebTours/images/mer_login.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(39): t=636ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?in=home"  	[MsgId: MMSG-26000]
+Action.c(39): Notify: Saving Parameter "userSession = 138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf".	[MsgId: MMSG-13798]
+Action.c(39): t=636ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(39): t=636ms: 579-byte request headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=4)
+Action.c(39):     GET /WebTours/images/fonJM.png HTTP/1.1\r\n
+Action.c(39):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Action.c(39):     Sec-Fetch-Dest: frame\r\n
+Action.c(39):     Sec-Fetch-Mode: navigate\r\n
+Action.c(39):     Sec-Fetch-Site: same-origin\r\n
+Action.c(39):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(39):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(39):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 127.0.0.1:8090\r\n
+Action.c(39):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Action.c(39):     \n
+Action.c(39):     \r\n
+Action.c(39): t=636ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(39): t=636ms: 583-byte request headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(39):     GET /WebTours/images/mer_login.gif HTTP/1.1\r\n
+Action.c(39):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Action.c(39):     Sec-Fetch-Dest: frame\r\n
+Action.c(39):     Sec-Fetch-Mode: navigate\r\n
+Action.c(39):     Sec-Fetch-Site: same-origin\r\n
+Action.c(39):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(39):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(39):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(39):     Accept-Encoding: gzip, deflate\r\n
+Action.c(39):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(39):     Accept: */*\r\n
+Action.c(39):     Connection: Keep-Alive\r\n
+Action.c(39):     Host: 127.0.0.1:8090\r\n
+Action.c(39):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Action.c(39):     \n
+Action.c(39):     \r\n
+Action.c(39): t=637ms: 166-byte response headers for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=4)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Content-type: image/png\r\n
+Action.c(39):     Content-length: 29614\r\n
+Action.c(39):     Last-modified: Tue, 28 Feb 2017 19:34:13 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): t=638ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(39):     HTTP/1.1 200 Ok\r\n
+Action.c(39):     Server: Xitami\r\n
+Action.c(39):     Date: Tue, 06 Feb 2024 18:07:46 GMT\r\n
+Action.c(39):     Content-type: image/gif\r\n
+Action.c(39):     Content-length: 679\r\n
+Action.c(39):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(39):     \r\n
+Action.c(39): t=638ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=4)
+Action.c(39): t=638ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=4)
+Action.c(39): t=638ms: 5040-byte response body for "http://127.0.0.1:8090/WebTours/images/fonJM.png" (RelFrameId=, Internal ID=4)
+Action.c(39): t=638ms: Request done "http://127.0.0.1:8090/WebTours/images/fonJM.png"  	[MsgId: MMSG-26000]
+Action.c(39): t=638ms: 679-byte response body for "http://127.0.0.1:8090/WebTours/images/mer_login.gif" (RelFrameId=, Internal ID=5)
+Action.c(39): t=638ms: Request done "http://127.0.0.1:8090/WebTours/images/mer_login.gif"  	[MsgId: MMSG-26000]
+Action.c(39): Registered web_reg_find successful for "Text=<title>Web Tours Navigation Bar</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(39): web_url("welcome.pl") was successful, 35002 body bytes, 1134 header bytes  	[MsgId: MMSG-26386]
+Action.c(49): web_add_cookie started  	[MsgId: MMSG-26355]
+Action.c(49): Notify: Parameter Substitution: parameter "SID" =  "1707242866"	[MsgId: MMSG-13992]
+Action.c(49): web_add_cookie was successful  	[MsgId: MMSG-26392]
+Action.c(51): web_set_sockets_option started  	[MsgId: MMSG-26355]
+Action.c(51): web_set_sockets_option was successful  	[MsgId: MMSG-26392]
+Action.c(53): Notify: Transaction "open_main_page" ended with a "Pass" status (Duration: 0,4549 Wasted Time: 0,0004).	[MsgId: MMSG-16871]
+Action.c(55): lr_think_time: 2,00 seconds.	[MsgId: MMSG-15948]
+Action.c(57): Notify: Transaction "login" started.	[MsgId: MMSG-16999]
+Action.c(59): web_remove_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(59): Previous automatically added web header for "Upgrade-Insecure-Requests" removed  	[MsgId: MMSG-26587]
+Action.c(59): web_remove/revert_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(61): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(61): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(61): "Origin: http://127.0.0.1:8090" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(61): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(64): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(64): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Action.c(64): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(64): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(67): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(67): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(68): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+Action.c(68): Notify: Parameter Substitution: parameter "userSession" =  "138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf"	[MsgId: MMSG-13992]
+Action.c(68): Notify: Parameter Substitution: parameter "login" =  "bloomfairy"	[MsgId: MMSG-13992]
+Action.c(68): Notify: Parameter Substitution: parameter "password" =  "fairy123"	[MsgId: MMSG-13992]
+Action.c(68): t=2654ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=2654ms: 663-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=6)
+Action.c(68):     POST /WebTours/login.pl HTTP/1.1\r\n
+Action.c(68):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?in=home\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50\r
+Action.c(68):     \n
+Action.c(68):     Content-Length: 132\r\n
+Action.c(68):     \r\n
+Action.c(68): t=2655ms: 132-byte request body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=6)
+Action.c(68):     userSession=138294.278331308HVVDfVVpQtVzzzzHtcziVpAHVzf&username=bloomfairy&password=fairy
+Action.c(68):     123&login.x=29&login.y=11&JSFormSubmit=off
+Action.c(68): t=2899ms: 403-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=6)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Cache-control: no-cache\r\n
+Action.c(68):     Expires: 0\r\n
+Action.c(68):     Content-length: 437\r\n
+Action.c(68):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:48 GMT\r\n
+Action.c(68):     Expires: 5s\r\n
+Action.c(68):     Set-cookie: MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName
+Action.c(68):     &Peters%0A&address1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A; path=/\r\n
+Action.c(68):     \r\n
+Action.c(68): t=2899ms: 437-byte response body for "http://127.0.0.1:8090/WebTours/login.pl" (RelFrameId=1, Internal ID=6)
+Action.c(68):     <!--\n
+Action.c(68):     User password was correct - added a cookie with the user's default\n
+Action.c(68):     information.  Set the user up to make reservations...\n
+Action.c(68):     \n
+Action.c(68):     --->\n
+Action.c(68):     \n
+Action.c(68):     <html>\n
+Action.c(68):     <title>Web Tours</title>\n
+Action.c(68):     <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(68):     <frame src=nav.pl?page=menu&in=home name=navbar marginheight=2 marginwidth=2 noresize scro
+Action.c(68):     lling=auto>\n
+Action.c(68):     <frame src=login.pl?intro=true name=info marginheight=2 marginwidth=2 noresize scrolling=a
+Action.c(68):     uto>\n
+Action.c(68):     </frameset>\n
+Action.c(68):     \n
+Action.c(68):     </body>\n
+Action.c(68):     </html>
+Action.c(68): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+Action.c(68): Detected non-resource "http://127.0.0.1:8090/WebTours/login.pl?intro=true" in "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26574]
+Action.c(68): t=2900ms: Request done "http://127.0.0.1:8090/WebTours/login.pl"  	[MsgId: MMSG-26000]
+Action.c(68): t=2900ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=2900ms: 760-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=7)
+Action.c(68):     GET /WebTours/nav.pl?page=menu&in=home HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=2900ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=2900ms: 755-byte request headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=8)
+Action.c(68):     GET /WebTours/login.pl?intro=true HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/login.pl\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3134ms: 225-byte response headers for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=8)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Cache-control: no-cache\r\n
+Action.c(68):     Expires: 0\r\n
+Action.c(68):     Content-length: 918\r\n
+Action.c(68):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Expires: 5s\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3134ms: 918-byte response body for "http://127.0.0.1:8090/WebTours/login.pl?intro=true" (RelFrameId=1.2, Internal ID=8)
+Action.c(68):     <!DOCTYPE html\n
+Action.c(68):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(68):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(68):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(68):     <head>\n
+Action.c(68):     <title>Welcome to Web Tours</title>\n
+Action.c(68):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(68):     </head>\n
+Action.c(68):     <body bgcolor="#E0E7F1">\n
+Action.c(68):     <p /><style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; fon
+Action.c(68):     t-size : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family:
+Action.c(68):      tahoma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 10pt; color: 
+Action.c(68):     black}</style><BR><BR><BR><BR><BR><blockquote>Welcome, <b>bloomfairy</b>, to the Web Tours
+Action.c(68):      reservation pages.<BR>Using the menu to the left, you can search for new flights to book,
+Action.c(68):      \n
+Action.c(68):     or review/edit the flights already booked.  Don't forget to sign off when\n
+Action.c(68):     you're done!\n
+Action.c(68):     </blockquote>\n
+Action.c(68):     </body>\n
+Action.c(68):     </html>
+Action.c(68): t=3134ms: Request done "http://127.0.0.1:8090/WebTours/login.pl?intro=true"  	[MsgId: MMSG-26000]
+Action.c(68): t=3134ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=7)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Cache-control: no-cache\r\n
+Action.c(68):     Expires: 0\r\n
+Action.c(68):     Content-length: 1476\r\n
+Action.c(68):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Expires: Mon, 05 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3134ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home" (RelFrameId=1.1, Internal ID=7)
+Action.c(68):     <!DOCTYPE html\n
+Action.c(68):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(68):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(68):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(68):     <head>\n
+Action.c(68):     <title>Web Tours Navigation Bar</title>\n
+Action.c(68):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(68):     </head>\n
+Action.c(68):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Action.c(68):     \n
+Action.c(68):     <style>\n
+Action.c(68):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(68):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(68):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(68):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(68):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(68):     N: none}\n
+Action.c(68):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(68):     CORATION: underline}\n
+Action.c(68):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(68):     </style>\n
+Action.c(68):     \n
+Action.c(68):     <BR><BR><center>\n
+Action.c(68):     \n
+Action.c(68):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Action.c(68):     ours/images/flights.gif \n
+Action.c(68):     ALT="Search Flights Button"></A>\n
+Action.c(68):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Action.c(68):     images/itinerary.gif \n
+Action.c(68):     ALT="Itinerary Button"></A>\n
+Action.c(68):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Action.c(68):     es/in_home.gif \n
+Action.c(68):     ALT="Home Button"></A>\n
+Action.c(68):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Action.c(68):     s/signoff.gif \n
+Action.c(68):     ALT="SignOff Button"></A></center>\n
+Action.c(68):     \n
+Action.c(68):     </body>\n
+Action.c(68):     </html>\n
+Action.c(68): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(68): Found resource "http://127.0.0.1:8090/WebTours/images/flights.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(68): Found resource "http://127.0.0.1:8090/WebTours/images/itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(68): Found resource "http://127.0.0.1:8090/WebTours/images/in_home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(68): Found resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+Action.c(68): t=3135ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26000]
+Action.c(68): t=3135ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=3135ms: 770-byte request headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=9)
+Action.c(68):     GET /WebTours/images/flights.gif HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3135ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=3135ms: 772-byte request headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=10)
+Action.c(68):     GET /WebTours/images/itinerary.gif HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3135ms: Connecting [3] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=3136ms: Connecting [4] to host 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(68): t=3136ms: Connected socket [3] from 127.0.0.1:55563 to 127.0.0.1:8090 in 1 ms  	[MsgId: MMSG-26000]
+Action.c(68): t=3136ms: 770-byte request headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=11)
+Action.c(68):     GET /WebTours/images/in_home.gif HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3136ms: Connected socket [4] from 127.0.0.1:55564 to 127.0.0.1:8090 in 0 ms  	[MsgId: MMSG-26000]
+Action.c(68): t=3136ms: 770-byte request headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=12)
+Action.c(68):     GET /WebTours/images/signoff.gif HTTP/1.1\r\n
+Action.c(68):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Action.c(68):     Origin: http://127.0.0.1:8090\r\n
+Action.c(68):     Sec-Fetch-Dest: frame\r\n
+Action.c(68):     Sec-Fetch-Mode: navigate\r\n
+Action.c(68):     Sec-Fetch-Site: same-origin\r\n
+Action.c(68):     Sec-Fetch-User: ?1\r\n
+Action.c(68):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(68):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(68):     Accept-Encoding: gzip, deflate\r\n
+Action.c(68):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(68):     Accept: */*\r\n
+Action.c(68):     Connection: Keep-Alive\r\n
+Action.c(68):     Host: 127.0.0.1:8090\r\n
+Action.c(68):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(68):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(68):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3139ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=9)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Content-type: image/gif\r\n
+Action.c(68):     Content-length: 726\r\n
+Action.c(68):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3142ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=10)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Content-type: image/gif\r\n
+Action.c(68):     Content-length: 733\r\n
+Action.c(68):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3142ms: 726-byte response body for "http://127.0.0.1:8090/WebTours/images/flights.gif" (RelFrameId=, Internal ID=9)
+Action.c(68): t=3142ms: Request done "http://127.0.0.1:8090/WebTours/images/flights.gif"  	[MsgId: MMSG-26000]
+Action.c(68): t=3145ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=11)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Content-type: image/gif\r\n
+Action.c(68):     Content-length: 688\r\n
+Action.c(68):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3145ms: 733-byte response body for "http://127.0.0.1:8090/WebTours/images/itinerary.gif" (RelFrameId=, Internal ID=10)
+Action.c(68): t=3145ms: Request done "http://127.0.0.1:8090/WebTours/images/itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(68): t=3147ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=12)
+Action.c(68):     HTTP/1.1 200 Ok\r\n
+Action.c(68):     Server: Xitami\r\n
+Action.c(68):     Date: Tue, 06 Feb 2024 18:07:49 GMT\r\n
+Action.c(68):     Content-type: image/gif\r\n
+Action.c(68):     Content-length: 751\r\n
+Action.c(68):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(68):     \r\n
+Action.c(68): t=3147ms: 688-byte response body for "http://127.0.0.1:8090/WebTours/images/in_home.gif" (RelFrameId=, Internal ID=11)
+Action.c(68): t=3147ms: Request done "http://127.0.0.1:8090/WebTours/images/in_home.gif"  	[MsgId: MMSG-26000]
+Action.c(68): t=3148ms: 751-byte response body for "http://127.0.0.1:8090/WebTours/images/signoff.gif" (RelFrameId=, Internal ID=12)
+Action.c(68): t=3148ms: Request done "http://127.0.0.1:8090/WebTours/images/signoff.gif"  	[MsgId: MMSG-26000]
+Action.c(68): Registered web_reg_find successful for "Text=User password was correct" (count=1)  	[MsgId: MMSG-26364]
+Action.c(68): web_submit_data("login.pl") was successful, 5729 body bytes, 1537 header bytes  	[MsgId: MMSG-26386]
+Action.c(85): Notify: Transaction "login" ended with a "Pass" status (Duration: 0,4938 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(87): lr_think_time: 5,00 seconds.	[MsgId: MMSG-15948]
+Action.c(89): Notify: Transaction "open_itinerary_page" started.	[MsgId: MMSG-16999]
+Action.c(91): web_remove_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(91): Previous automatically added web header for "Sec-Fetch-User" removed  	[MsgId: MMSG-26587]
+Action.c(91): web_remove/revert_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(93): web_add_auto_header("Upgrade-Insecure-Requests") started  	[MsgId: MMSG-26355]
+Action.c(93): An unrecognized header ("Upgrade-Insecure-Requests") is being added  	[MsgId: MMSG-26595]
+Action.c(93): "Upgrade-Insecure-Requests: 1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(93): web_add_auto_header("Upgrade-Insecure-Requests") was successful  	[MsgId: MMSG-26392]
+Action.c(96): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(96): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(98): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(98): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(103): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+Action.c(103): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+Action.c(108): web_url("Itinerary Button") started  	[MsgId: MMSG-26355]
+Action.c(108): t=8156ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8156ms: 756-byte request headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=13)
+Action.c(108):     GET /WebTours/welcome.pl?page=itinerary HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8386ms: 175-byte response headers for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=13)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Cache-control: no-cache\r\n
+Action.c(108):     Expires: 0\r\n
+Action.c(108):     Content-length: 535\r\n
+Action.c(108):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8387ms: 535-byte response body for "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary" (RelFrameId=1, Internal ID=13)
+Action.c(108):     <!-- \n
+Action.c(108):      User wants the intineraries.  Since user has already logged on,\n
+Action.c(108):      we can give them the menu in the navbar.\n
+Action.c(108):      --->\n
+Action.c(108):     \n
+Action.c(108):     <html>\n
+Action.c(108):     <title>Web Tours</title>\n
+Action.c(108):        <!-- Frame Set -->\n
+Action.c(108):        <frameset cols="160,*" border=1 frameborder=1>\n
+Action.c(108):           <!-- Navigation Frame -->\n
+Action.c(108):           <frame src=nav.pl?page=menu&in=itinerary name=navbar \n
+Action.c(108):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Action.c(108):           <!-- Itinerary Frame -->\n
+Action.c(108):           <frame src=itinerary.pl name=info \n
+Action.c(108):                 marginheight=2 marginwidth=2 noresize scrolling=auto>\n
+Action.c(108):        </frameset>\n
+Action.c(108): Detected non-resource "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(108): Detected non-resource "http://127.0.0.1:8090/WebTours/itinerary.pl" in "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(108): t=8387ms: Request done "http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"  	[MsgId: MMSG-26000]
+Action.c(108): t=8387ms: Already connected [1] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8387ms: 761-byte request headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=14)
+Action.c(108):     GET /WebTours/nav.pl?page=menu&in=itinerary HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8387ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8387ms: 744-byte request headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=15)
+Action.c(108):     GET /WebTours/itinerary.pl HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8711ms: 254-byte response headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=15)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Cache-control: no-cache\r\n
+Action.c(108):     Expires: 0\r\n
+Action.c(108):     Content-length: 18114\r\n
+Action.c(108):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Expires: Mon, 05 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8711ms: 253-byte response headers for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=14)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Cache-control: no-cache\r\n
+Action.c(108):     Expires: 0\r\n
+Action.c(108):     Content-length: 1476\r\n
+Action.c(108):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Expires: Mon, 05 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8712ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=15)
+Action.c(108):     <!DOCTYPE html\n
+Action.c(108):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(108):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(108):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(108):     <head>\n
+Action.c(108):     <title>Flights List</title>\n
+Action.c(108):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(108):     </head>\n
+Action.c(108):     <body bgcolor="#E0E7F1">\n
+Action.c(108):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(108):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(108):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(108):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+Action.c(108):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+Action.c(108):     <center>\n
+Action.c(108):     <TABLE BORDER=0 WIDTH=85% CELLSPACING=0>\n
+Action.c(108):     <TR bgcolor=#5E7884>\n
+Action.c(108):       <TD colspan=4 align=center><font color=white><B>Bloom Peters\n
+Action.c(108):      's Flight Transaction Summary</B></color></TD></TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128029395-822-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 686 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  11pm : Flight 793 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128029395-1591-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 686 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  11pm : Flight 793 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128029383-2335-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 366 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  11pm : Flight 793 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128013047-3097-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 271 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  5pm : Flight 352 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="1280141889-38540-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 1027 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  11pm : Flight 383 leaves Los Angeles  for Sydney.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="1280067095-46275-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 1575 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  1pm : Flight 181 leaves Frankfurt  for Sydney.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="1280307453-53942-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 1256 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  8am : Flight 830 leaves Sydney  for Los Angeles.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128013824-6174-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 268 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  11pm : Flight 373 leaves Los Angeles  for Seattle.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128026697-6986-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 819 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  8am : Flight 720 leaves Seattle  for London.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128013006-7705-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 176 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  1pm : Flight 351 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128008892-8469-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):             
+Action.c(108): t=8717ms: 5827-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1.2, Internal ID=15)
+Action.c(108):       Total Charge: $ 108 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  8am : Flight 240 leaves London  for Paris.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="1280178216-92449-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 1845 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  1pm : Flight 481 leaves Paris  for Sydney.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128004490-10018-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 237 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  1pm : Flight 121 leaves Frankfurt  for London.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="1280315596-107777-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 1103 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  5pm : Flight 852 leaves Sydney  for Portland.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <!-- Flight #1 -->\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(108):     <b>\n
+Action.c(108):     <label><input type="checkbox" name="15" value="on" /></label></font></b>\n
+Action.c(108):     <input type="hidden" name="flightID" value="128008894-11550-BP"  />\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=45% valign=top>\n
+Action.c(108):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(108):           <center><table border=0 width=85%><tr><td>\n
+Action.c(108):           <li><i>Bloom Peters\n
+Action.c(108):           <li><i></i>\n
+Action.c(108):           </td></tr></table></center>\n
+Action.c(108):       </TD>\n
+Action.c(108):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(108):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(108):           <center>\n
+Action.c(108):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(108):               Bloom Peters\n
+Action.c(108):     <br>\n
+Action.c(108):               123 Magic Lane Gardenia CA<br>\n
+Action.c(108):               90210<br>\n
+Action.c(108):               <br>\n
+Action.c(108):               Total Charge: $ 157 <BR> (CC: x-3456)\n
+Action.c(108):           </td> </tr> </table>\n
+Action.c(108):           </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=3>\n
+Action.c(108):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(108):       02/06/2024\n
+Action.c(108):      :  8am : Flight 240 leaves London  for Paris.<br>  </center>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     \n
+Action.c(108):     <TR bgcolor=#EFF2F7>\n
+Action.c(108):       <TD COLSPAN=4>\n
+Action.c(108):       <hr>\n
+Action.c(108):       </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     <TR>\n
+Action.c(108):        <TD align=center COLSPAN=4>\n
+Action.c(108):        <b>A total of 15 scheduled flights.</font></b>\n
+Action.c(108):        </TD>\n
+Action.c(108):     </TR>\n
+Action.c(108):     </TABLE>\n
+Action.c(108):     \n
+Action.c(108):     <TABLE WIDTH=87% BORDER=0 CELLSPACING=0>\n
+Action.c(108):     <TR>\n
+Action.c(108):     <TD align=left width=50% >\n
+Action.c(108):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Action.c(108):     er="0" /></TD>\n
+Action.c(108):     <TD align=right width=50% >\n
+Action.c(108):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Action.c(108):     f" border="0" /></TD>\n
+Action.c(108):     </TABLE>\n
+Action.c(108):     \n
+Action.c(108):     <div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifi
+Action.c(108):     elds" value="11"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidde
+Action.c(108):     n" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><inp
+Action.c(108):     ut type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" va
+Action.c(108):     lue="2"  /><input type="hidden" name=".cgifields" value="15"  /><input type="hidden" name=
+Action.c(108):     ".cgifields" value="14"  /><input type="hidden" name=".cgifields" value="8"  /><input type
+Action.c(108):     ="hidden" name=".cgifields" value="1"  /><input type="hidden" name=".cgifields" value="4" 
+Action.c(108):      /><input type="hidden" name=".cgifields" value="13"  /><input type="hidden" name=".cgifie
+Action.c(108):     lds" value="10"  /><input type="hidden" name=".cgifields" value="5"  /></div></form>\n
+Action.c(108):     \n
+Action.c(108):     </center>\n
+Action.c(108):     \n
+Action.c(108):     </body>\n
+Action.c(108):     </html>
+Action.c(108): Found resource "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(108): Found resource "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" in HTML "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(108): t=8719ms: Request done "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(108): Notify: Saving Parameter "flightIds_1 = 128029395-822-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_2 = 128029395-1591-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_3 = 128029383-2335-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_4 = 128013047-3097-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_5 = 1280141889-38540-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_6 = 1280067095-46275-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_7 = 1280307453-53942-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_8 = 128013824-6174-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_9 = 128026697-6986-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_10 = 128013006-7705-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_11 = 128008892-8469-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_12 = 1280178216-92449-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_13 = 128004490-10018-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_14 = 1280315596-107777-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "flightIds_15 = 128008894-11550-BP".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_1 = 6".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_2 = 11".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_3 = 3".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_4 = 7".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_5 = 9".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_6 = 12".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_7 = 2".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_8 = 15".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_9 = 14".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_10 = 8".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_11 = 1".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_12 = 4".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_13 = 13".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_14 = 10".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_15 = 5".	[MsgId: MMSG-13798]
+Action.c(108): t=8720ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8720ms: 747-byte request headers for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=16)
+Action.c(108):     GET /WebTours/images/cancelreservation.gif HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8720ms: Already connected [3] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8720ms: 751-byte request headers for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=17)
+Action.c(108):     GET /WebTours/images/cancelallreservations.gif HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8721ms: 1476-byte response body for "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary" (RelFrameId=1.1, Internal ID=14)
+Action.c(108):     <!DOCTYPE html\n
+Action.c(108):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(108):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(108):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(108):     <head>\n
+Action.c(108):     <title>Web Tours Navigation Bar</title>\n
+Action.c(108):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(108):     </head>\n
+Action.c(108):     <body bgcolor="#F3E2E2" background="images/fonJM.png">\n
+Action.c(108):     \n
+Action.c(108):     <style>\n
+Action.c(108):     \tblockquote {font-family: tahoma; font-size : 10pt}\n
+Action.c(108):     \tH1 {font-family: tahoma; font-size : 22pt; color: #993333}\n
+Action.c(108):     \tsmall {font-family: tahoma; font-size : 8pt}\n
+Action.c(108):     \tH3{font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(108):     \tA {FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: black; FONT-FAMILY: Tahoma; TEXT-DECORATIO
+Action.c(108):     N: none}\n
+Action.c(108):     \tA:hover{ FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #993333; FONT-FAMILY: Tahoma;TEXT-DE
+Action.c(108):     CORATION: underline}\n
+Action.c(108):     \tTD {font-family: tahoma; font-size : 10pt; color: black}\n
+Action.c(108):     </style>\n
+Action.c(108):     \n
+Action.c(108):     <BR><BR><center>\n
+Action.c(108):     \n
+Action.c(108):     <br clear><center><A HREF="welcome.pl?page=search" TARGET="body"><IMG BORDER="0" SRC=/WebT
+Action.c(108):     ours/images/flights.gif \n
+Action.c(108):     ALT="Search Flights Button"></A>\n
+Action.c(108):     <br clear><A HREF="welcome.pl?page=itinerary" TARGET="body"><IMG BORDER="0" SRC=/WebTours/
+Action.c(108):     images/in_itinerary.gif \n
+Action.c(108):     ALT="Itinerary Button"></A>\n
+Action.c(108):     <br clear><A HREF="welcome.pl?page=menus" TARGET="body"><IMG BORDER="0" SRC=/WebTours/imag
+Action.c(108):     es/home.gif \n
+Action.c(108):     ALT="Home Button"></A>\n
+Action.c(108):     <br clear><A HREF="welcome.pl?signOff=1" TARGET="body"><IMG BORDER="0" SRC=/WebTours/image
+Action.c(108):     s/signoff.gif \n
+Action.c(108):     ALT="SignOff Button"></A></center>\n
+Action.c(108):     \n
+Action.c(108):     </body>\n
+Action.c(108):     </html>\n
+Action.c(108): Resource "http://127.0.0.1:8090/WebTours/images/fonJM.png" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(108): Resource "http://127.0.0.1:8090/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(108): Found resource "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(108): Found resource "http://127.0.0.1:8090/WebTours/images/home.gif" in HTML "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+Action.c(108): Resource "http://127.0.0.1:8090/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(108): t=8721ms: Request done "http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26000]
+Action.c(108): t=8721ms: Already connected [2] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8721ms: 759-byte request headers for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=18)
+Action.c(108):     GET /WebTours/images/in_itinerary.gif HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8721ms: Already connected [4] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(108): t=8721ms: 751-byte request headers for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=19)
+Action.c(108):     GET /WebTours/images/home.gif HTTP/1.1\r\n
+Action.c(108):     Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary\r\n
+Action.c(108):     Sec-Fetch-Dest: frame\r\n
+Action.c(108):     Sec-Fetch-Mode: navigate\r\n
+Action.c(108):     Sec-Fetch-Site: same-origin\r\n
+Action.c(108):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(108):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(108):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(108):     Accept-Encoding: gzip, deflate\r\n
+Action.c(108):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(108):     Accept: */*\r\n
+Action.c(108):     Connection: Keep-Alive\r\n
+Action.c(108):     Host: 127.0.0.1:8090\r\n
+Action.c(108):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(108):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(108):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8736ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=19)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Content-type: image/gif\r\n
+Action.c(108):     Content-length: 688\r\n
+Action.c(108):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8736ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=16)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Content-type: image/gif\r\n
+Action.c(108):     Content-length: 831\r\n
+Action.c(108):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8736ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=18)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Content-type: image/gif\r\n
+Action.c(108):     Content-length: 733\r\n
+Action.c(108):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8736ms: 733-byte response body for "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif" (RelFrameId=, Internal ID=18)
+Action.c(108): t=8736ms: Request done "http://127.0.0.1:8090/WebTours/images/in_itinerary.gif"  	[MsgId: MMSG-26000]
+Action.c(108): t=8737ms: 831-byte response body for "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif" (RelFrameId=, Internal ID=16)
+Action.c(108): t=8737ms: Request done "http://127.0.0.1:8090/WebTours/images/cancelreservation.gif"  	[MsgId: MMSG-26000]
+Action.c(108): t=8737ms: 164-byte response headers for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=17)
+Action.c(108):     HTTP/1.1 200 Ok\r\n
+Action.c(108):     Server: Xitami\r\n
+Action.c(108):     Date: Tue, 06 Feb 2024 18:07:54 GMT\r\n
+Action.c(108):     Content-type: image/gif\r\n
+Action.c(108):     Content-length: 742\r\n
+Action.c(108):     Last-modified: Mon, 08 Feb 2010 11:51:43 GMT\r\n
+Action.c(108):     \r\n
+Action.c(108): t=8737ms: 742-byte response body for "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif" (RelFrameId=, Internal ID=17)
+Action.c(108): t=8737ms: Request done "http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif"  	[MsgId: MMSG-26000]
+Action.c(108): t=8737ms: 688-byte response body for "http://127.0.0.1:8090/WebTours/images/home.gif" (RelFrameId=, Internal ID=19)
+Action.c(108): t=8737ms: Request done "http://127.0.0.1:8090/WebTours/images/home.gif"  	[MsgId: MMSG-26000]
+Action.c(108): Notify: Saving Parameter "flightIds_count = 15".	[MsgId: MMSG-13798]
+Action.c(108): Notify: Saving Parameter "cgifields_count = 15".	[MsgId: MMSG-13798]
+Action.c(108): Registered web_reg_find successful for "Text=<title>Flights List</title>" (count=1)  	[MsgId: MMSG-26364]
+Action.c(108): web_url("Itinerary Button") was successful, 23119 body bytes, 1338 header bytes  	[MsgId: MMSG-26386]
+Action.c(118): Notify: Transaction "open_itinerary_page" ended with a "Pass" status (Duration: 0,5818 Wasted Time: 0,0009).	[MsgId: MMSG-16871]
+Action.c(120): lr_think_time: 10,00 seconds.	[MsgId: MMSG-15948]
+Action.c(122): Notify: Transaction "remove_itinerary" started.	[MsgId: MMSG-16999]
+Action.c(124): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(126): Notify: Saving Parameter "cBuffer = ".	[MsgId: MMSG-13798]
+Action.c(129): Notify: Parameter Substitution: parameter "cBuffer" =  ""	[MsgId: MMSG-13992]
+Action.c(129): Notify: Saving Parameter "cBuffer = 1=on&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_1" =  "128029395-822-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_1" =  "6"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_2" =  "128029395-1591-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_2" =  "11"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_3" =  "128029383-2335-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_3" =  "3"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_4" =  "128013047-3097-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_4" =  "7"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_5" =  "1280141889-38540-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_5" =  "9"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_6" =  "1280067095-46275-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_6" =  "12"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_7" =  "1280307453-53942-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_7" =  "2"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_8" =  "128013824-6174-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_8" =  "15"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_9" =  "128026697-6986-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_9" =  "14"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_10" =  "128013006-7705-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_10" =  "8"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_11" =  "128008892-8469-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_11" =  "1"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_12" =  "1280178216-92449-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_12" =  "4"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_13" =  "128004490-10018-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_13" =  "13"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_14" =  "1280315596-107777-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_14" =  "10"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Parameter Substitution: parameter "flightIds_15" =  "128008894-11550-BP"	[MsgId: MMSG-13992]
+Action.c(133): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&".	[MsgId: MMSG-13798]
+Action.c(137): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Parameter Substitution: parameter "cgifields_15" =  "5"	[MsgId: MMSG-13992]
+Action.c(137): Notify: Saving Parameter "cBuffer = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&.cgifields=5&".	[MsgId: MMSG-13798]
+Action.c(132): Notify: Parameter Substitution: parameter "flightIds_count" =  "15"	[MsgId: MMSG-13992]
+Action.c(143): Notify: Parameter Substitution: parameter "cBuffer" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&.cgifields=5&"	[MsgId: MMSG-13992]
+Action.c(143): Notify: Saving Parameter "request = 1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&.cgifields=5&removeFlights.x=36&removeFlights.y=4".	[MsgId: MMSG-13798]
+Action.c(145): web_add_header("Origin") started  	[MsgId: MMSG-26355]
+Action.c(145): An unrecognized header ("Origin") is being added  	[MsgId: MMSG-26595]
+Action.c(145): "Origin: http://127.0.0.1:8090" header registered for adding to requests from the immediately following Action function  	[MsgId: MMSG-26506]
+Action.c(145): web_add_header("Origin") was successful  	[MsgId: MMSG-26392]
+Action.c(148): web_add_auto_header("Sec-Fetch-User") started  	[MsgId: MMSG-26355]
+Action.c(148): An unrecognized header ("Sec-Fetch-User") is being added  	[MsgId: MMSG-26595]
+Action.c(148): "Sec-Fetch-User: ?1" header registered for adding to requests from all following Action functions  	[MsgId: MMSG-26505]
+Action.c(148): web_add_auto_header("Sec-Fetch-User") was successful  	[MsgId: MMSG-26392]
+Action.c(151): web_reg_find started  	[MsgId: MMSG-26355]
+Action.c(151): Notify: Parameter Substitution: parameter "flightIds_1" =  "128029395-822-BP"	[MsgId: MMSG-13992]
+Action.c(151): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+Action.c(159): web_custom_request("itinerary.pl") started  	[MsgId: MMSG-26355]
+Action.c(159): Notify: Parameter Substitution: parameter "request" =  "1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&flightID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=1280141889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&.cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifields=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&flightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&.cgifields=5&removeFlights.x=36&removeFlights.y=4"	[MsgId: MMSG-13992]
+Action.c(159): t=18752ms: Already connected [0] to 127.0.0.1:8090  	[MsgId: MMSG-26000]
+Action.c(159): t=18752ms: 853-byte request headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=20)
+Action.c(159):     POST /WebTours/itinerary.pl HTTP/1.1\r\n
+Action.c(159):     Content-Type: application/x-www-form-urlencoded\r\n
+Action.c(159):     Referer: http://127.0.0.1:8090/WebTours/itinerary.pl\r\n
+Action.c(159):     Origin: http://127.0.0.1:8090\r\n
+Action.c(159):     Sec-Fetch-Dest: frame\r\n
+Action.c(159):     Sec-Fetch-Mode: navigate\r\n
+Action.c(159):     Sec-Fetch-Site: same-origin\r\n
+Action.c(159):     Upgrade-Insecure-Requests: 1\r\n
+Action.c(159):     Sec-Fetch-User: ?1\r\n
+Action.c(159):     User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Geck
+Action.c(159):     o) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36\r\n
+Action.c(159):     Accept-Encoding: gzip, deflate\r\n
+Action.c(159):     Accept-Language: en-US,en;q=0.5\r\n
+Action.c(159):     Accept: */*\r\n
+Action.c(159):     Connection: Keep-Alive\r\n
+Action.c(159):     Host: 127.0.0.1:8090\r\n
+Action.c(159):     Cookie: MSO=SID&1707242866&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; 
+Action.c(159):     MTUserInfo=firstName&Bloom&address2&90210&username&bloomfairy&hash&57&lastName&Peters%0A&a
+Action.c(159):     ddress1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&%0A\r\n
+Action.c(159):     Content-Length: 659\r\n
+Action.c(159):     \r\n
+Action.c(159): t=18752ms: 659-byte request body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=20)
+Action.c(159):     1=on&flightID=128029395-822-BP&.cgifields=6&flightID=128029395-1591-BP&.cgifields=11&fligh
+Action.c(159):     tID=128029383-2335-BP&.cgifields=3&flightID=128013047-3097-BP&.cgifields=7&flightID=128014
+Action.c(159):     1889-38540-BP&.cgifields=9&flightID=1280067095-46275-BP&.cgifields=12&flightID=1280307453-
+Action.c(159):     53942-BP&.cgifields=2&flightID=128013824-6174-BP&.cgifields=15&flightID=128026697-6986-BP&
+Action.c(159):     .cgifields=14&flightID=128013006-7705-BP&.cgifields=8&flightID=128008892-8469-BP&.cgifield
+Action.c(159):     s=1&flightID=1280178216-92449-BP&.cgifields=4&flightID=128004490-10018-BP&.cgifields=13&fl
+Action.c(159):     ightID=1280315596-107777-BP&.cgifields=10&flightID=128008894-11550-BP&.cgifields=5&removeF
+Action.c(159):     lights.x=36&removeFlights.y=4
+Action.c(159): t=19192ms: 254-byte response headers for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=20)
+Action.c(159):     HTTP/1.1 200 Ok\r\n
+Action.c(159):     Server: Xitami\r\n
+Action.c(159):     Date: Tue, 06 Feb 2024 18:08:05 GMT\r\n
+Action.c(159):     Cache-control: no-cache\r\n
+Action.c(159):     Expires: 0\r\n
+Action.c(159):     Content-length: 17005\r\n
+Action.c(159):     Content-type: text/html; charset=ISO-8859-1\r\n
+Action.c(159):     Date: Tue, 06 Feb 2024 18:08:05 GMT\r\n
+Action.c(159):     Expires: Mon, 05 Feb 2024 18:08:05 GMT\r\n
+Action.c(159):     \r\n
+Action.c(159): t=19192ms: 12287-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=20)
+Action.c(159):     <!DOCTYPE html\n
+Action.c(159):     \tPUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"\n
+Action.c(159):     \t "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">\n
+Action.c(159):     <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US">\n
+Action.c(159):     <head>\n
+Action.c(159):     <title>Flights List</title>\n
+Action.c(159):     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />\n
+Action.c(159):     </head>\n
+Action.c(159):     <body bgcolor="#E0E7F1">\n
+Action.c(159):     <style>blockquote {font-family: tahoma; font-size : 10pt}H1 {font-family: tahoma; font-siz
+Action.c(159):     e : 22pt; color: #993333}small {font-family: tahoma; font-size : 8pt}H3 {font-family: taho
+Action.c(159):     ma; font-size : 10pt; color: black}TD {font-family: tahoma; font-size : 8pt; color: black}
+Action.c(159):     </style><BR><BR><h1><font color=#003366>&nbsp;&nbsp;<b>Itinerary</font></b></h1><blockquot
+Action.c(159):     e><form method="post" action="itinerary.pl" enctype="application/x-www-form-urlencoded">\n
+Action.c(159):     <center>\n
+Action.c(159):     <TABLE BORDER=0 WIDTH=85% CELLSPACING=0>\n
+Action.c(159):     <TR bgcolor=#5E7884>\n
+Action.c(159):       <TD colspan=4 align=center><font color=white><B>Bloom Peters\n
+Action.c(159):      's Flight Transaction Summary</B></color></TD></TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="1" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128029395-822-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 686 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  11pm : Flight 793 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="2" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128029383-1566-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 366 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  11pm : Flight 793 leaves Seattle  for Zurich.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="3" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128013047-2328-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 271 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  5pm : Flight 352 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="4" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="1280141889-30848-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 1027 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  11pm : Flight 383 leaves Los Angeles  for Sydney.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="5" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="1280067095-38582-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 1575 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  1pm : Flight 181 leaves Frankfurt  for Sydney.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="6" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="1280307453-46250-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 1256 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  8am : Flight 830 leaves Sydney  for Los Angeles.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="7" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128013824-5405-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A First class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 268 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  11pm : Flight 373 leaves Los Angeles  for Seattle.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="8" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128026697-6216-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 819 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  8am : Flight 720 leaves Seattle  for London.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="9" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128013006-6936-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 176 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  1pm : Flight 351 leaves Los Angeles  for Portland.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="10" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128008892-7700-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 108 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  8am : Flight 240 leaves London  for Paris.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="11" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="1280178216-84757-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):           
+Action.c(159): t=19196ms: 4718-byte response body for "http://127.0.0.1:8090/WebTours/itinerary.pl" (RelFrameId=1, Internal ID=20)
+Action.c(159):         Total Charge: $ 1845 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  1pm : Flight 481 leaves Paris  for Sydney.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="12" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128004490-9249-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Coach class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 237 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  1pm : Flight 121 leaves Frankfurt  for London.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="13" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="1280315596-100084-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 1103 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  5pm : Flight 852 leaves Sydney  for Portland.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <!-- Flight #1 -->\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD width=5% rowspan=2 align=left valign=top>\n
+Action.c(159):     <b>\n
+Action.c(159):     <label><input type="checkbox" name="14" value="on" /></label></font></b>\n
+Action.c(159):     <input type="hidden" name="flightID" value="128008894-10781-BP"  />\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=45% valign=top>\n
+Action.c(159):           <b>&nbsp;&nbsp;A Business class ticket for :</b><br>\n
+Action.c(159):           <center><table border=0 width=85%><tr><td>\n
+Action.c(159):           <li><i>Bloom Peters\n
+Action.c(159):           <li><i></i>\n
+Action.c(159):           </td></tr></table></center>\n
+Action.c(159):       </TD>\n
+Action.c(159):       <TD width=5% >.<br>.<br>.<br>.</TD>\n
+Action.c(159):       <TD width=45% valign=top><b>Invoice sent to:</b><br>\n
+Action.c(159):           <center>\n
+Action.c(159):           <Table width=80% cellspacing=0 > <tr> <td>\n
+Action.c(159):               Bloom Peters\n
+Action.c(159):     <br>\n
+Action.c(159):               123 Magic Lane Gardenia CA<br>\n
+Action.c(159):               90210<br>\n
+Action.c(159):               <br>\n
+Action.c(159):               Total Charge: $ 157 <BR> (CC: x-3456)\n
+Action.c(159):           </td> </tr> </table>\n
+Action.c(159):           </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=3>\n
+Action.c(159):       <b>Flight Details:</b><BR>  <center>\n
+Action.c(159):       02/06/2024\n
+Action.c(159):      :  8am : Flight 240 leaves London  for Paris.<br>  </center>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     \n
+Action.c(159):     <TR bgcolor=#EFF2F7>\n
+Action.c(159):       <TD COLSPAN=4>\n
+Action.c(159):       <hr>\n
+Action.c(159):       </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     <TR>\n
+Action.c(159):        <TD align=center COLSPAN=4>\n
+Action.c(159):        <b>A total of 14 scheduled flights.</font></b>\n
+Action.c(159):        </TD>\n
+Action.c(159):     </TR>\n
+Action.c(159):     </TABLE>\n
+Action.c(159):     \n
+Action.c(159):     <TABLE WIDTH=87% BORDER=0 CELLSPACING=0>\n
+Action.c(159):     <TR>\n
+Action.c(159):     <TD align=left width=50% >\n
+Action.c(159):     <input type="image" name="removeFlights" src="/WebTours/images/cancelreservation.gif" bord
+Action.c(159):     er="0" /></TD>\n
+Action.c(159):     <TD align=right width=50% >\n
+Action.c(159):     <input type="image" name="removeAllFlights" src="/WebTours/images/cancelallreservations.gi
+Action.c(159):     f" border="0" /></TD>\n
+Action.c(159):     </TABLE>\n
+Action.c(159):     \n
+Action.c(159):     <div><input type="hidden" name=".cgifields" value="6"  /><input type="hidden" name=".cgifi
+Action.c(159):     elds" value="11"  /><input type="hidden" name=".cgifields" value="3"  /><input type="hidde
+Action.c(159):     n" name=".cgifields" value="7"  /><input type="hidden" name=".cgifields" value="9"  /><inp
+Action.c(159):     ut type="hidden" name=".cgifields" value="12"  /><input type="hidden" name=".cgifields" va
+Action.c(159):     lue="2"  /><input type="hidden" name=".cgifields" value="14"  /><input type="hidden" name=
+Action.c(159):     ".cgifields" value="8"  /><input type="hidden" name=".cgifields" value="1"  /><input type=
+Action.c(159):     "hidden" name=".cgifields" value="4"  /><input type="hidden" name=".cgifields" value="13" 
+Action.c(159):      /><input type="hidden" name=".cgifields" value="10"  /><input type="hidden" name=".cgifie
+Action.c(159):     lds" value="5"  /></div></form>\n
+Action.c(159):     \n
+Action.c(159):     </center>\n
+Action.c(159):     \n
+Action.c(159):     </body>\n
+Action.c(159):     </html>
+Action.c(159): t=19198ms: Request done "http://127.0.0.1:8090/WebTours/itinerary.pl"  	[MsgId: MMSG-26000]
+Action.c(159): Error -26368: "Text=name="flightID" value="128029395-822-BP"" found for web_reg_find (count=1)  	[MsgId: MERR-26368]
+Action.c(159): web_custom_request("itinerary.pl") highest severity level was "ERROR", 17005 body bytes, 254 header bytes  	[MsgId: MMSG-26388]
+Action.c(159): Notify: Transaction "remove_itinerary" ended with a "Fail" status (Duration: 0,4488 Wasted Time: 0,0000).	[MsgId: MMSG-16871]
+Action.c(159): Notify: Transaction "remove_itinerary" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(159): Notify: The 1st error message associated with transaction "remove_itinerary" is "Error -26368: "Text=name="flightID" value="128029395-822-BP"" found for web_reg_find (count=1)"	[MsgId: MMSG-16819]
+Action.c(159): Notify: Transaction "UC_04_remove_itinerary" ended with a "Fail" status (Duration: 19,0143 Think Time: 17,0344 Wasted Time: 0,0013).	[MsgId: MMSG-16870]
+Action.c(159): Notify: Transaction "UC_04_remove_itinerary" has 1 error message(s).	[MsgId: MMSG-16818]
+Action.c(159): Notify: The 1st error message associated with transaction "UC_04_remove_itinerary" is "Error -26368: "Text=name="flightID" value="128029395-822-BP"" found for web_reg_find (count=1)"	[MsgId: MMSG-16819]
+Ending action Action.	[MsgId: MMSG-15918]
+Ending iteration 1.	[MsgId: MMSG-15965]
+Waiting 32,9850 seconds for iteration pacing.	[MsgId: MMSG-15996]
+Action was aborted.	[MsgId: MMSG-10694]
+Ending Vuser...	[MsgId: MMSG-15966]
+Starting action vuser_end.	[MsgId: MMSG-15919]
+Ending action vuser_end.	[MsgId: MMSG-15918]
+Vuser Terminated.	[MsgId: MMSG-15963]
+Action.c(159): t=31102ms: Closed connection [0] to 127.0.0.1:8090 after completing 7 request(s)  	[MsgId: MMSG-26000]
+Action.c(159): t=31102ms: Closed connection [1] to 127.0.0.1:8090 after completing 3 request(s)  	[MsgId: MMSG-26000]
+Action.c(159): t=31102ms: Closed connection [2] to 127.0.0.1:8090 after completing 6 request(s)  	[MsgId: MMSG-26000]
+Action.c(159): t=31102ms: Closed connection [3] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+Action.c(159): t=31102ms: Closed connection [4] to 127.0.0.1:8090 after completing 2 request(s)  	[MsgId: MMSG-26000]
+HTML-Mode memory management statistics: Reusable=8, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
+Vuser 0 (thread 71168), ended OK."	[MsgId: MMSG-10695]

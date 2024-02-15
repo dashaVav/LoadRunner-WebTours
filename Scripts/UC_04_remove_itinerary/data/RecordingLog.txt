@@ -1,0 +1,601 @@
+[API Trapper      (2ec4: e64)] Recording in 32-bit mode: C:\Program Files (x86)\Micro Focus\LoadRunner\Bin\HP.LR.ProxyRecorderStarter.exe
+[Network Analyzer (3fb8:2438)] ------------------------------------------------------------------------------------------
+[Network Analyzer (3fb8:2438)] Load Network Traffic Analyzers:
+[Network Analyzer (3fb8:2438)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (3fb8:2438)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (3fb8:2438)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (3fb8:2438)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (3fb8:2438)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (3fb8:2438)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (3fb8:2438)] ------------------------------------------------------------------------------------------
+[Proxy Recording  (3fb8:2438)] Started proxy on port 8888 listening IP 172.20.10.9, 127.0.0.1, in synchronous mode
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53572
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53580
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to http://detectportal.firefox.com/canonical.html ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53581
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53582
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53583
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53587
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true ...
+[Proxy Recording  (3fb8: 8e4)] Received response of 191 header and 90 body bytes from http://detectportal.firefox.com/canonical.html
+[Web Request      (3fb8: 8e4)] "GET http://detectportal.firefox.com/canonical.html"   
+[Network Analyzer (3fb8: 8e4)]   (Sid:  1) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid:  1) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid:  1) Server -> Client : 90 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8: 8e4)] Sent 90 bytes to client @ 127.0.0.1:53580
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53591
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to http://detectportal.firefox.com/success.txt?ipv4 ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 191 header and 8 body bytes from http://detectportal.firefox.com/success.txt?ipv4
+[Web Request      (3fb8:3f7c)] "GET http://detectportal.firefox.com/success.txt?ipv4"   
+[Network Analyzer (3fb8:3f7c)]   (Sid:  2) Client -> Server @ : 312 bytes (Service=HTTP)
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53593
+[Network Analyzer (3fb8:3f7c)]   (Sid:  2) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid:  2) Server -> Client : 8 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 8 bytes to client @ 127.0.0.1:53591
+[Proxy Recording  (3fb8:5cf0)] Received response of 349 header and 630 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53594
+[Web Request      (3fb8:5cf0)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?signOff=true"   
+[Network Analyzer (3fb8:5cf0)]   (Sid:  3) Client -> Server @ : 521 bytes (Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid:  3) Server -> Client : 366 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid:  3) Server -> Client : 630 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:5cf0)] Sent 630 bytes to client @ 127.0.0.1:53587
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53595
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53597
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53599
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53600
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53602
+[Proxy Recording  (3fb8:11f8)] Received response of 219 header and 2732 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?in=home
+[Web Request      (3fb8:11f8)] "GET http://127.0.0.1:8090/WebTours/nav.pl?in=home"   
+[Network Analyzer (3fb8:11f8)]   (Sid:  4) Client -> Server @ : 601 bytes (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid:  4) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid:  4) Server -> Client : 2732 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:11f8)] Sent 2732 bytes to client @ 127.0.0.1:53599
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53603
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53604
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53605
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53606
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53607
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53608
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53609
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53610
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53611
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53612
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53613
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53616
+[Proxy Recording  (3fb8:571c)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8:571c)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:571c)]   (Sid:  5) Client -> Server @ : 623 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:571c)]   (Sid:  5) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:571c)] Sent 0 bytes to client @ 172.20.10.9:53572
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53618
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://contile.services.mozilla.com:443/v1/tiles ...
+[Proxy Recording  (3fb8:38d4)] Received response of 249 header and 0 body bytes from https://contile.services.mozilla.com:443/v1/tiles
+[Web Request      (3fb8:38d4)] "GET https://contile.services.mozilla.com/v1/tiles"   
+[Network Analyzer (3fb8:38d4)]   (Sid:  6) Client -> Server @ : 294 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid:  6) Server -> Client : 274 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:38d4)] Sent 0 bytes to client @ 127.0.0.1:53581
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://spocs.getpocket.com:443/spocs ...
+[Proxy Recording  (3fb8:11d4)] Received response of 216 header and 394 body bytes from https://spocs.getpocket.com:443/spocs
+[Network Analyzer (3fb8:11d4)]   (Sid:  7) Client -> Server @ : 327 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:11d4)] "POST https://spocs.getpocket.com/spocs"   
+[Network Analyzer (3fb8:11d4)]   (Sid:  7) Client -> Server @ : 197 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid:  7) Server -> Client : 205 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid:  7) Server -> Client : 394 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:11d4)] Sent 394 bytes to client @ 127.0.0.1:53582
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain ...
+[Proxy Recording  (3fb8:4108)] Received response of 501 header and 5352 body bytes from https://content-signature-2.cdn.mozilla.net:443/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain
+[Web Request      (3fb8:4108)] "GET https://content-signature-2.cdn.mozilla.net/chains/remote-settings.content-signature.mozilla.org-2024-02-29-06-55-22.chain"   
+[Network Analyzer (3fb8:4108)]   (Sid:  8) Client -> Server @ : 378 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid:  8) Server -> Client : 518 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid:  8) Server -> Client : 5352 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:4108)] Sent 5352 bytes to client @ 127.0.0.1:53583
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53624
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl ...
+[Proxy Recording  (3fb8:5dc0)] Received response of 382 header and 437 body bytes from http://127.0.0.1:8090/WebTours/login.pl
+[Network Analyzer (3fb8:5dc0)]   (Sid:  9) Client -> Server @ : 708 bytes (Service=HTTP)
+[Web Request      (3fb8:5dc0)] "POST http://127.0.0.1:8090/WebTours/login.pl"   
+[Network Analyzer (3fb8:5dc0)]   (Sid:  9) Client -> Server @ : 116 bytes (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid:  9) Server -> Client : 399 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid:  9) Server -> Client : 437 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:5dc0)] Sent 437 bytes to client @ 127.0.0.1:53624
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53626
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53627
+[Proxy Recording  (3fb8: 844)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (3fb8:11d4)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home ...
+[Proxy Recording  (3fb8:11d4)] Trying to connect to http://127.0.0.1:8090/WebTours/login.pl?intro=true ...
+[Proxy Recording  (3fb8: 844)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home
+[Proxy Recording  (3fb8:11d4)] Received response of 191 header and 911 body bytes from http://127.0.0.1:8090/WebTours/login.pl?intro=true
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (3fb8: 844)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home"   
+[Network Analyzer (3fb8: 844)]   (Sid: 10) Client -> Server @ : 767 bytes (Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 10) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 10) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8: 844)] Sent 1476 bytes to client @ 127.0.0.1:53626
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53630
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53631
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/flights.gif ...
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/itinerary.gif ...
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/images/flights.gif ...
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to http://127.0.0.1:8090/WebTours/images/itinerary.gif ...
+[Proxy Recording  (3fb8:5dc0)] Received response of 147 header and 726 body bytes from http://127.0.0.1:8090/WebTours/images/flights.gif
+[Proxy Recording  (3fb8: 5cc)] Received response of 147 header and 733 body bytes from http://127.0.0.1:8090/WebTours/images/itinerary.gif
+[Web Request      (3fb8:11d4)] "GET http://127.0.0.1:8090/WebTours/login.pl?intro=true"   
+[Network Analyzer (3fb8:11d4)]   (Sid: 11) Client -> Server @ : 762 bytes (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 11) Server -> Client : 208 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 11) Server -> Client : 911 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:11d4)] Sent 911 bytes to client @ 127.0.0.1:53627
+[Web Request      (3fb8:5dc0)] "GET http://127.0.0.1:8090/WebTours/images/flights.gif"   
+[Network Analyzer (3fb8:5dc0)]   (Sid: 12) Client -> Server @ : 686 bytes (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 12) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 12) Server -> Client : 726 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8:5dc0)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/flights.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (3fb8: 5cc)] "GET http://127.0.0.1:8090/WebTours/images/itinerary.gif"   
+[Network Analyzer (3fb8: 5cc)]   (Sid: 13) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 13) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 13) Server -> Client : 733 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8: 5cc)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/itinerary.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (3fb8: 8e4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (3fb8: 8e4)]   (Sid: 14) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 14) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53632
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARC8ihUaAhgMxA0_oyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEOrlDRoCGAxOGHfoIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQn90NGgIYDIY9TvYiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARChrA4aAhgMJn1FUiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ== ...
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARC8ihUaAhgMxA0_oyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEOrlDRoCGAxOGHfoIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQn90NGgIYDIY9TvYiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARChrA4aAhgMJn1FUiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ== ...
+[Proxy Recording  (3fb8:45c8)] Received response of 331 header and 5289 body bytes from https://safebrowsing.googleapis.com:443/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARC8ihUaAhgMxA0_oyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEOrlDRoCGAxOGHfoIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQn90NGgIYDIY9TvYiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARChrA4aAhgMJn1FUiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ==
+[Web Request      (3fb8:45c8)] "GET https://safebrowsing.googleapis.com/v4/threatListUpdates:fetch?$ct=application/x-protobuf&key=AIzaSyC7jsptDS3am4tPx4r3nxis7IMjBc5Dovo&$httpMethod=POST&$req=ChUKE25hdmNsaWVudC1hdXRvLWZmb3gaJwgFEAEaGwoNCAUQBhgBIgMwMDEwARC8ihUaAhgMxA0_oyICIAIoARonCAEQARobCg0IARAGGAEiAzAwMTABEOrlDRoCGAxOGHfoIgIgAigBGicIAxABGhsKDQgDEAYYASIDMDAxMAEQn90NGgIYDIY9TvYiAiACKAEaJwgHEAEaGwoNCAcQBhgBIgMwMDEwARChrA4aAhgMJn1FUiICIAIoARolCAkQARoZCg0ICRAGGAEiAzAwMTABECMaAhgMUj2mGCICIAIoAQ=="   
+[Network Analyzer (3fb8:45c8)]   (Sid: 15) Client -> Server @ : 851 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 15) Server -> Client : 348 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 15) Server -> Client : 5289 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:45c8)] Sent 5289 bytes to client @ 127.0.0.1:53594
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53635
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53637
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US ...
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 125 header and 0 body bytes from https://firefox.settings.services.mozilla.com:443/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US
+[Web Request      (3fb8:3f7c)] "GET https://firefox.settings.services.mozilla.com/v1/buckets/main/collections/ms-language-packs/records/cfr-v1-en-US"   
+[Network Analyzer (3fb8:3f7c)]   (Sid: 16) Client -> Server @ : 497 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 16) Server -> Client : 152 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 0 bytes to client @ 127.0.0.1:53595
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53639
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53640
+[Proxy Recording.Error (3fb8:11f8)] Exception is caught while trying to connect to https://firefox.settings.services.mozilla.com:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (3fb8:11f8)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording.Error (3fb8: cac)] Exception is caught while trying to connect to https://incoming.telemetry.mozilla.org:443, message=Не удается прочитать данные из транспортного соединения: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording.Error (3fb8: cac)] Exception is caught while connecting to , message=Поток был недоступен для чтения.
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1 ...
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1 ...
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/4d6cae4b-6a76-4e8f-9058-acf815b3f2ed ...
+[Proxy Recording.Error (3fb8:5dc0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:571c)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8:571c)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:571c)]   (Sid: 17) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:571c)]   (Sid: 17) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:571c)] Sent 0 bytes to client @ 172.20.10.9:53618
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53648
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/4d6cae4b-6a76-4e8f-9058-acf815b3f2ed ...
+[Proxy Recording  (3fb8:38d4)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:38d4)]   (Sid: 18) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:38d4)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:38d4)]   (Sid: 18) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid: 18) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:38d4)] Sent 0 bytes to client @ 172.20.10.9:53632
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53649
+[Proxy Recording  (3fb8:5cf0)] Received response of 453 header and 565 body bytes from https://aus5.mozilla.org:443/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1
+[Web Request      (3fb8:5cf0)] "GET https://aus5.mozilla.org/update/6/Firefox/121.0.1/20240108143603/WINNT_x86_64-msvc-x64/en-US/release/Windows_NT%252010.0.0.0.22621.3007%2520(x64)/ISET%3ASSE4_2%2CMEM%3A16183/default/default/update.xml?force=1"   
+[Network Analyzer (3fb8:5cf0)]   (Sid: 19) Client -> Server @ : 488 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid: 19) Server -> Client : 442 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid: 19) Server -> Client : 565 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:5cf0)] Sent 565 bytes to client @ 127.0.0.1:53597
+[Proxy Recording  (3fb8:5dc0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/4d6cae4b-6a76-4e8f-9058-acf815b3f2ed
+[Network Analyzer (3fb8:5dc0)]   (Sid: 20) Client -> Server @ : 615 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:5dc0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/4d6cae4b-6a76-4e8f-9058-acf815b3f2ed"   
+[Network Analyzer (3fb8:5dc0)]   (Sid: 20) Client -> Server @ : 473 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 20) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 20) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:5dc0)] Sent 20 bytes to client @ 127.0.0.1:53635
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53650
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53651
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/06a5db41-11aa-4628-81af-e5c101f811c6 ...
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/bc4128ff-7b80-4079-826a-9fe498c618c1 ...
+[Proxy Recording  (3fb8:2e54)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/1dbfe4ff-da99-441f-a743-724d744cfe08 ...
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording.Error (3fb8:11d4)] Cannot add request header message:Заголовок "Date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording.Error (3fb8:571c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording.Error (3fb8:2e54)] Cannot add request header message:Заголовок "Date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/06a5db41-11aa-4628-81af-e5c101f811c6 ...
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/bc4128ff-7b80-4079-826a-9fe498c618c1 ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:3f7c)]   (Sid: 21) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:3f7c)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:3f7c)]   (Sid: 21) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 21) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 0 bytes to client @ 172.20.10.9:53648
+[Proxy Recording  (3fb8:11d4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/06a5db41-11aa-4628-81af-e5c101f811c6
+[Proxy Recording  (3fb8:571c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/bc4128ff-7b80-4079-826a-9fe498c618c1
+[Proxy Recording  (3fb8:2e54)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/1dbfe4ff-da99-441f-a743-724d744cfe08 ...
+[Web Request      (3fb8: 8e4)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (3fb8: 8e4)]   (Sid: 22) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 22) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 23) Client -> Server @ : 438 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:11d4)] "POST https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/06a5db41-11aa-4628-81af-e5c101f811c6"   
+[Network Analyzer (3fb8:11d4)]   (Sid: 23) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 23) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 23) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:11d4)] Sent 20 bytes to client @ 127.0.0.1:53640
+[Network Analyzer (3fb8:571c)]   (Sid: 24) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:571c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/bc4128ff-7b80-4079-826a-9fe498c618c1"   
+[Network Analyzer (3fb8:571c)]   (Sid: 24) Client -> Server @ : 703 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:571c)]   (Sid: 24) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:571c)]   (Sid: 24) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:571c)] Sent 20 bytes to client @ 127.0.0.1:53650
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53663
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/b359b196-053e-4362-b756-fd086d1c4868 ...
+[Proxy Recording.Error (3fb8:5dc0)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/b359b196-053e-4362-b756-fd086d1c4868 ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to https://shavar.services.mozilla.com:443/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2 ...
+[Proxy Recording  (3fb8:2e54)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/messaging-system/undesired-events/1/1dbfe4ff-da99-441f-a743-724d744cfe08
+[Network Analyzer (3fb8:2e54)]   (Sid: 25) Client -> Server @ : 438 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:2e54)] "POST https://incoming.telemetry.mozilla.org/submit/messaging-system/undesired-events/1/1dbfe4ff-da99-441f-a743-724d744cfe08"   
+[Network Analyzer (3fb8:2e54)]   (Sid: 25) Client -> Server @ : 415 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:2e54)]   (Sid: 25) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:2e54)]   (Sid: 25) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:2e54)] Sent 20 bytes to client @ 127.0.0.1:53639
+[Proxy Recording  (3fb8:5dc0)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/b359b196-053e-4362-b756-fd086d1c4868
+[Network Analyzer (3fb8:5dc0)]   (Sid: 26) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:5dc0)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/b359b196-053e-4362-b756-fd086d1c4868"   
+[Network Analyzer (3fb8:5dc0)]   (Sid: 26) Client -> Server @ : 885 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 26) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 26) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:5dc0)] Sent 20 bytes to client @ 127.0.0.1:53663
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53667
+[Proxy Recording  (3fb8:21bc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/93d04d2f-6e34-4aba-bffb-53c8d2abbcd0 ...
+[Proxy Recording.Error (3fb8:21bc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:21bc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/93d04d2f-6e34-4aba-bffb-53c8d2abbcd0 ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to https://shavar.services.mozilla.com:443/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2 ...
+[Proxy Recording  (3fb8:21bc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/93d04d2f-6e34-4aba-bffb-53c8d2abbcd0
+[Network Analyzer (3fb8:21bc)]   (Sid: 27) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:21bc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/93d04d2f-6e34-4aba-bffb-53c8d2abbcd0"   
+[Network Analyzer (3fb8:21bc)]   (Sid: 27) Client -> Server @ : 469 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:21bc)]   (Sid: 27) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:21bc)]   (Sid: 27) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:21bc)] Sent 20 bytes to client @ 127.0.0.1:53667
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53669
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/37396b0c-b501-4e55-9121-33b5a88278dc ...
+[Proxy Recording.Error (3fb8:45c8)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/37396b0c-b501-4e55-9121-33b5a88278dc ...
+[Proxy Recording  (3fb8: 844)] Received response of 186 header and 8 body bytes from https://shavar.services.mozilla.com:443/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2
+[Network Analyzer (3fb8: 844)]   (Sid: 28) Client -> Server @ : 503 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8: 844)] "POST https://shavar.services.mozilla.com/downloads?client=navclient-auto-ffox&appver=121.0&pver=2.2"   
+[Network Analyzer (3fb8: 844)]   (Sid: 28) Client -> Server @ : 621 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 28) Server -> Client : 203 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 28) Server -> Client : 8 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: 844)] Sent 8 bytes to client @ 127.0.0.1:53637
+[Proxy Recording  (3fb8:45c8)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/baseline/1/37396b0c-b501-4e55-9121-33b5a88278dc
+[Network Analyzer (3fb8:45c8)]   (Sid: 29) Client -> Server @ : 593 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:45c8)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/baseline/1/37396b0c-b501-4e55-9121-33b5a88278dc"   
+[Network Analyzer (3fb8:45c8)]   (Sid: 29) Client -> Server @ : 727 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 29) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 29) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:45c8)] Sent 20 bytes to client @ 127.0.0.1:53669
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53671
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/dab38eaf-9bca-4c29-a50b-31554b80f230 ...
+[Proxy Recording.Error (3fb8:4108)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/dab38eaf-9bca-4c29-a50b-31554b80f230 ...
+[Proxy Recording  (3fb8:4108)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/dab38eaf-9bca-4c29-a50b-31554b80f230
+[Network Analyzer (3fb8:4108)]   (Sid: 30) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:4108)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/dab38eaf-9bca-4c29-a50b-31554b80f230"   
+[Network Analyzer (3fb8:4108)]   (Sid: 30) Client -> Server @ : 702 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid: 30) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid: 30) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:4108)] Sent 20 bytes to client @ 127.0.0.1:53671
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53673
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/8f4b002b-1cea-4e21-82b7-c0f1241cd64e ...
+[Proxy Recording.Error (3fb8: 5cc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/8f4b002b-1cea-4e21-82b7-c0f1241cd64e ...
+[Proxy Recording  (3fb8: 5cc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/8f4b002b-1cea-4e21-82b7-c0f1241cd64e
+[Network Analyzer (3fb8: 5cc)]   (Sid: 31) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8: 5cc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/8f4b002b-1cea-4e21-82b7-c0f1241cd64e"   
+[Network Analyzer (3fb8: 5cc)]   (Sid: 31) Client -> Server @ : 887 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 31) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 31) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: 5cc)] Sent 20 bytes to client @ 127.0.0.1:53673
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53675
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/03b379a5-12bb-41b1-8357-14df74172ce7 ...
+[Proxy Recording.Error (3fb8:3f7c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/03b379a5-12bb-41b1-8357-14df74172ce7 ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/03b379a5-12bb-41b1-8357-14df74172ce7
+[Network Analyzer (3fb8:3f7c)]   (Sid: 32) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:3f7c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/03b379a5-12bb-41b1-8357-14df74172ce7"   
+[Network Analyzer (3fb8:3f7c)]   (Sid: 32) Client -> Server @ : 655 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 32) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 32) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 20 bytes to client @ 127.0.0.1:53675
+[Proxy Recording  (3fb8:11f8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53678
+[Proxy Recording  (3fb8:11f8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:11f8)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8:11f8)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:11f8)]   (Sid: 33) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 33) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:11f8)] Sent 0 bytes to client @ 172.20.10.9:53649
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53680
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/48b3b43b-9561-4531-b7d9-b32cc7db4901 ...
+[Proxy Recording.Error (3fb8:11d4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:11d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/48b3b43b-9561-4531-b7d9-b32cc7db4901 ...
+[User action                 ] StartTransactionEvent open_iene [Proxy Recording  (3fb8:45c8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:11d4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/48b3b43b-9561-4531-b7d9-b32cc7db4901
+[Network Analyzer (3fb8:11d4)]   (Sid: 34) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:11d4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/48b3b43b-9561-4531-b7d9-b32cc7db4901"   
+[Network Analyzer (3fb8:11d4)]   (Sid: 34) Client -> Server @ : 880 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 34) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 34) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:11d4)] Sent 20 bytes to client @ 127.0.0.1:53678
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53682
+[Proxy Recording  (3fb8:45c8)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:45c8)]   (Sid: 35) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:45c8)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:45c8)]   (Sid: 35) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 35) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:45c8)] Sent 0 bytes to client @ 172.20.10.9:53680
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/aab2321b-5a2a-45f1-8646-d9a9fa3e2ab5 ...
+[Proxy Recording.Error (3fb8:4108)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:4108)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/aab2321b-5a2a-45f1-8646-d9a9fa3e2ab5 ...
+[Proxy Recording  (3fb8:4108)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/aab2321b-5a2a-45f1-8646-d9a9fa3e2ab5
+[Network Analyzer (3fb8:4108)]   (Sid: 36) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:4108)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/aab2321b-5a2a-45f1-8646-d9a9fa3e2ab5"   
+[Network Analyzer (3fb8:4108)]   (Sid: 36) Client -> Server @ : 884 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid: 36) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:4108)]   (Sid: 36) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:4108)] Sent 20 bytes to client @ 127.0.0.1:53682
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53684
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a0c46d34-7129-4c58-be7a-3ae431447706 ...
+[Proxy Recording.Error (3fb8:38d4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:38d4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a0c46d34-7129-4c58-be7a-3ae431447706 ...
+[Proxy Recording  (3fb8:38d4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/use-counters/1/a0c46d34-7129-4c58-be7a-3ae431447706
+[Network Analyzer (3fb8:38d4)]   (Sid: 37) Client -> Server @ : 597 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:38d4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/use-counters/1/a0c46d34-7129-4c58-be7a-3ae431447706"   
+[Network Analyzer (3fb8:38d4)]   (Sid: 37) Client -> Server @ : 705 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid: 37) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid: 37) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:38d4)] Sent 20 bytes to client @ 127.0.0.1:53684
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53686
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/fe7567a5-76c9-4934-b6f0-000a59f72681 ...
+[Proxy Recording.Error (3fb8:3f7c)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/fe7567a5-76c9-4934-b6f0-000a59f72681 ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53688
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary ...
+[Proxy Recording  (3fb8:11f8)] Received response of 158 header and 535 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary
+[Web Request      (3fb8:11f8)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?page=itinerary"   
+[Network Analyzer (3fb8:11f8)]   (Sid: 38) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 38) Server -> Client : 175 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 38) Server -> Client : 535 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:11f8)] Sent 535 bytes to client @ 127.0.0.1:53688
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53689
+[Proxy Recording  (3fb8:11d4)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53690
+[Proxy Recording  (3fb8:2e54)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (3fb8:11d4)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary ...
+[Proxy Recording  (3fb8:2e54)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/events/1/fe7567a5-76c9-4934-b6f0-000a59f72681
+[Network Analyzer (3fb8:3f7c)]   (Sid: 39) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:3f7c)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/events/1/fe7567a5-76c9-4934-b6f0-000a59f72681"   
+[Network Analyzer (3fb8:3f7c)]   (Sid: 39) Client -> Server @ : 886 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 39) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 39) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 20 bytes to client @ 127.0.0.1:53686
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53691
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/3dd9b70a-eeba-41c5-9425-2023dfd59849 ...
+[Proxy Recording.Error (3fb8: 5cc)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8: 5cc)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/3dd9b70a-eeba-41c5-9425-2023dfd59849 ...
+[Proxy Recording  (3fb8:11d4)] Received response of 219 header and 1476 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary
+[Proxy Recording  (3fb8:2e54)] Received response of 219 header and 3670 body bytes from http://127.0.0.1:8090/WebTours/itinerary.pl
+[Web Request      (3fb8:11d4)] "GET http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=itinerary"   
+[Network Analyzer (3fb8:11d4)]   (Sid: 40) Client -> Server @ : 789 bytes (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 40) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:11d4)]   (Sid: 40) Server -> Client : 1476 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:11d4)] Sent 1476 bytes to client @ 127.0.0.1:53689
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53693
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53694
+[Proxy Recording  (3fb8:38d4)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_itinerary.gif ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to http://127.0.0.1:8090/WebTours/images/home.gif ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to http://127.0.0.1:8090/WebTours/images/home.gif ...
+[Proxy Recording  (3fb8:38d4)] Trying to connect to http://127.0.0.1:8090/WebTours/images/in_itinerary.gif ...
+[Proxy Recording  (3fb8: 844)] Received response of 147 header and 688 body bytes from http://127.0.0.1:8090/WebTours/images/home.gif
+[Proxy Recording  (3fb8:38d4)] Received response of 147 header and 733 body bytes from http://127.0.0.1:8090/WebTours/images/in_itinerary.gif
+[Web Request      (3fb8:2e54)] "GET http://127.0.0.1:8090/WebTours/itinerary.pl"   
+[Network Analyzer (3fb8:2e54)]   (Sid: 41) Client -> Server @ : 772 bytes (Service=HTTP)
+[Network Analyzer (3fb8:2e54)]   (Sid: 41) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:2e54)]   (Sid: 41) Server -> Client : 3670 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:2e54)] Sent 3670 bytes to client @ 127.0.0.1:53690
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53695
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelreservation.gif ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53696
+[Proxy Recording  (3fb8:11f8)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelreservation.gif ...
+[Proxy Recording  (3fb8:11f8)] Received response of 147 header and 831 body bytes from http://127.0.0.1:8090/WebTours/images/cancelreservation.gif
+[Proxy Recording  (3fb8: cac)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif ...
+[Proxy Recording  (3fb8: cac)] Trying to connect to http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif ...
+[Web Request      (3fb8: 844)] "GET http://127.0.0.1:8090/WebTours/images/home.gif"   
+[Network Analyzer (3fb8: 844)]   (Sid: 42) Client -> Server @ : 688 bytes (Service=HTTP)
+[Proxy Recording  (3fb8: cac)] Received response of 147 header and 742 body bytes from http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif
+[Network Analyzer (3fb8: 844)]   (Sid: 42) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 42) Server -> Client : 688 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8: 844)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/home.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (3fb8:38d4)] "GET http://127.0.0.1:8090/WebTours/images/in_itinerary.gif"   
+[Network Analyzer (3fb8:38d4)]   (Sid: 43) Client -> Server @ : 696 bytes (Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid: 43) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:38d4)]   (Sid: 43) Server -> Client : 733 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8:38d4)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/in_itinerary.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (3fb8:11f8)] "GET http://127.0.0.1:8090/WebTours/images/cancelreservation.gif"   
+[Network Analyzer (3fb8:11f8)]   (Sid: 44) Client -> Server @ : 684 bytes (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 44) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 44) Server -> Client : 831 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8:11f8)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/cancelreservation.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Web Request      (3fb8: cac)] "GET http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif"   
+[Network Analyzer (3fb8: cac)]   (Sid: 45) Client -> Server @ : 688 bytes (Service=HTTP)
+[Network Analyzer (3fb8: cac)]   (Sid: 45) Server -> Client : 164 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: cac)]   (Sid: 45) Server -> Client : 742 bytes  (Service=HTTP)
+[Proxy Recording.Error (3fb8: cac)] Exception is caught while sending data to http://127.0.0.1:8090/WebTours/images/cancelallreservations.gif, message=Не удается записать данные в транспортное соединение: Программа на вашем хост-компьютере разорвала установленное подключение.
+[Proxy Recording  (3fb8: 5cc)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/newtab/1/3dd9b70a-eeba-41c5-9425-2023dfd59849
+[Network Analyzer (3fb8: 5cc)]   (Sid: 46) Client -> Server @ : 591 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8: 5cc)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/newtab/1/3dd9b70a-eeba-41c5-9425-2023dfd59849"   
+[Network Analyzer (3fb8: 5cc)]   (Sid: 46) Client -> Server @ : 474 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 46) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8: 5cc)]   (Sid: 46) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: 5cc)] Sent 20 bytes to client @ 127.0.0.1:53691
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53697
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/50700798-9a7d-4407-8ecd-e2041173a771 ...
+[Proxy Recording.Error (3fb8: 8e4)] Cannot add request header message:Заголовок "date" необходимо изменить с помощью соответствующего свойства или метода.
+Имя параметра: name
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/50700798-9a7d-4407-8ecd-e2041173a771 ...
+[Proxy Recording  (3fb8: 8e4)] Received response of 659 header and 20 body bytes from https://incoming.telemetry.mozilla.org:443/submit/firefox-desktop/messaging-system/1/50700798-9a7d-4407-8ecd-e2041173a771
+[Network Analyzer (3fb8: 8e4)]   (Sid: 47) Client -> Server @ : 601 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8: 8e4)] "POST https://incoming.telemetry.mozilla.org/submit/firefox-desktop/messaging-system/1/50700798-9a7d-4407-8ecd-e2041173a771"   
+[Network Analyzer (3fb8: 8e4)]   (Sid: 47) Client -> Server @ : 702 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 47) Server -> Client : 648 bytes (SSL) (Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 47) Server -> Client : 20 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: 8e4)] Sent 20 bytes to client @ 127.0.0.1:53697
+[User action                 ] EndTransactionEvent open_iene [Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53699
+[Proxy Recording  (3fb8:571c)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (3fb8:571c)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (3fb8:571c)]   (Sid: 48) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:571c)]   (Sid: 48) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53702
+[Proxy Recording  (3fb8: 844)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8: 844)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8: 844)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8: 844)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8: 844)]   (Sid: 49) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: 844)]   (Sid: 49) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: 844)] Sent 0 bytes to client @ 172.20.10.9:53702
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53704
+[Proxy Recording  (3fb8:11f8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:11f8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:11f8)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:11f8)]   (Sid: 50) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:11f8)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:11f8)]   (Sid: 50) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:11f8)]   (Sid: 50) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:11f8)] Sent 0 bytes to client @ 172.20.10.9:53704
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53709
+[Proxy Recording  (3fb8: cac)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8: cac)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8: cac)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8: cac)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8: cac)]   (Sid: 51) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8: cac)]   (Sid: 51) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8: cac)] Sent 0 bytes to client @ 172.20.10.9:53709
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53711
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:5cf0)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:5cf0)]   (Sid: 52) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:5cf0)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:5cf0)]   (Sid: 52) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid: 52) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:5cf0)] Sent 0 bytes to client @ 172.20.10.9:53711
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53713
+[User action                 ] StartTransactionEvent remove_one [Proxy Recording.Error (3fb8:45c8)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53714
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:3f7c)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:3f7c)] Received response of 537 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Web Request      (3fb8:3f7c)] "OPTIONS https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:3f7c)]   (Sid: 53) Client -> Server @ : 599 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:3f7c)]   (Sid: 53) Server -> Client : 562 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:3f7c)] Sent 0 bytes to client @ 172.20.10.9:53714
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53722
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53724
+[Proxy Recording.Error (3fb8:21bc)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:5dc0)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:5dc0)]   (Sid: 54) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:5dc0)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:5dc0)]   (Sid: 54) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 54) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:5dc0)] Sent 0 bytes to client @ 172.20.10.9:53722
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53725
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (3fb8: 8e4)] Trying to connect to http://127.0.0.1:8090/WebTours/itinerary.pl ...
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53726
+[Proxy Recording  (3fb8: 8e4)] Received response of 219 header and 2574 body bytes from http://127.0.0.1:8090/WebTours/itinerary.pl
+[Network Analyzer (3fb8: 8e4)]   (Sid: 55) Client -> Server @ : 881 bytes (Service=HTTP)
+[Web Request      (3fb8: 8e4)] "POST http://127.0.0.1:8090/WebTours/itinerary.pl"   
+[Network Analyzer (3fb8: 8e4)]   (Sid: 55) Client -> Server @ : 107 bytes (Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 55) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8: 8e4)]   (Sid: 55) Server -> Client : 2574 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8: 8e4)] Sent 2574 bytes to client @ 127.0.0.1:53725
+[Proxy Recording  (3fb8:2e54)] Trying to connect to https://push.services.mozilla.com:443/ ...
+[Web Request      (3fb8:2e54)] "GET https://push.services.mozilla.com/"   
+[Network Analyzer (3fb8:2e54)]   (Sid: 56) Client -> Server @ : 567 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:2e54)]   (Sid: 56) Server -> Client : 156 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53729
+[Proxy Recording.Error (3fb8: 844)] Cannot establish a secure connection to the application being recorded.
+Message=Ошибка вызова SSPI, см. внутреннее исключение.
+Import the LoadRunner SSL certificate to the client machine. For details, see "Use Case 3" of "https://admhelp.microfocus.com/lr/en/2020/help/WebHelp/Content/VuGen/t_HowToRecordViaAProxy.htm".
+[Proxy Recording  (3fb8:1de4)] Client request from @ 172.20.10.9:53730
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:45c8)] Trying to connect to https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users ...
+[Proxy Recording  (3fb8:45c8)] Received response of 227 header and 0 body bytes from https://gist-queue-consumer-api.cloud.gist.build:443/api/v1/users
+[Network Analyzer (3fb8:45c8)]   (Sid: 57) Client -> Server @ : 788 bytes (SSL)(Service=HTTP)
+[Web Request      (3fb8:45c8)] "POST https://gist-queue-consumer-api.cloud.gist.build/api/v1/users"   
+[Network Analyzer (3fb8:45c8)]   (Sid: 57) Client -> Server @ : 2 bytes (SSL)(Service=HTTP)
+[Network Analyzer (3fb8:45c8)]   (Sid: 57) Server -> Client : 254 bytes (SSL) (Service=HTTP)
+[Proxy Recording  (3fb8:45c8)] Sent 0 bytes to client @ 172.20.10.9:53730
+[User action                 ] EndTransactionEvent remove_one [Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53732
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1 ...
+[Proxy Recording  (3fb8:5dc0)] Trying to connect to http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1 ...
+[Proxy Recording  (3fb8:5dc0)] Received response of 349 header and 630 body bytes from http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1
+[Web Request      (3fb8:5dc0)] "GET http://127.0.0.1:8090/WebTours/welcome.pl?signOff=1"   
+[Network Analyzer (3fb8:5dc0)]   (Sid: 58) Client -> Server @ : 804 bytes (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 58) Server -> Client : 366 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:5dc0)]   (Sid: 58) Server -> Client : 630 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:5dc0)] Sent 630 bytes to client @ 127.0.0.1:53732
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53733
+[Proxy Recording  (3fb8:1174)] Client request from @ 127.0.0.1:53734
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (3fb8:5cf0)] Trying to connect to http://127.0.0.1:8090/WebTours/nav.pl?in=home ...
+[Proxy Recording  (3fb8:5cf0)] Received response of 219 header and 2754 body bytes from http://127.0.0.1:8090/WebTours/nav.pl?in=home
+[Web Request      (3fb8:5cf0)] "GET http://127.0.0.1:8090/WebTours/nav.pl?in=home"   
+[Network Analyzer (3fb8:5cf0)]   (Sid: 59) Client -> Server @ : 598 bytes (Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid: 59) Server -> Client : 236 bytes  (Service=HTTP)
+[Network Analyzer (3fb8:5cf0)]   (Sid: 59) Server -> Client : 2754 bytes  (Service=HTTP)
+[Proxy Recording  (3fb8:5cf0)] Sent 2754 bytes to client @ 127.0.0.1:53733

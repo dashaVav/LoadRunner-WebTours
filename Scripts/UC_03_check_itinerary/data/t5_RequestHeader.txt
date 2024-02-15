@@ -1,0 +1,14 @@
+GET http://127.0.0.1:8090/WebTours/welcome.pl?page=search HTTP/1.1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:121.0) Gecko/20100101 Firefox/121.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://127.0.0.1:8090/WebTours/nav.pl?page=menu&in=home
+Cookie: MSO=SID&1706774978&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&James&address2&WC2E7BN&username&007&hash&55&lastName&Bond%0A&address1&45%20Wellington%20St%2C%20London%2C%20United%20Kingdom&creditCard&&expDate&%0A
+Upgrade-Insecure-Requests: 1
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+Sec-Fetch-User: ?1
+Host: 127.0.0.1:8090
+

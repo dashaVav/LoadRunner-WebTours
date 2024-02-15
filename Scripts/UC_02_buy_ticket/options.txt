@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\HUAWEI\Documents\LoadRunner_WebTours\Scripts\UC_02_buy_ticket
+-IC:\Program Files (x86)\Micro Focus\LoadRunner\include
+-ec:\users\huawei\documents\loadrunner_webtours\scripts\uc_02_buy_ticket\\logfile.log
+c:\users\huawei\documents\loadrunner_webtours\scripts\uc_02_buy_ticket\\combined_UC_02_buy_ticket.c
+c:\users\huawei\documents\loadrunner_webtours\scripts\uc_02_buy_ticket\\pre_cci.c

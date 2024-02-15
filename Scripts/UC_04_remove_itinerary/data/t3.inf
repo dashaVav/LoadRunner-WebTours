@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3.htm
+URL1=http://127.0.0.1:8090/WebTours/nav.pl?username=007&password=%26%231079%3B%26%231092%3B%26%231099%3B%26%231099%3B%26%231094%3B%26%231097%3B%26%231082%3B%26%231074%3B
+Total=1
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_3.xml
+[ProtocolInfo]
+ProtocolId=QTWeb

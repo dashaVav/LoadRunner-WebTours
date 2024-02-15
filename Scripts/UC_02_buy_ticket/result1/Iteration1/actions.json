@@ -1,0 +1,120 @@
+[
+    {
+        "actionName": "Action",
+        "steps": [
+            {
+                "stepId": "STEP1",
+                "stepName": "Url: welcome.pl",
+                "infFile": "t2.inf",
+                "time": 1707237694720
+            },
+            {
+                "stepId": "STEP2",
+                "stepName": "Submit Data: login.pl",
+                "infFile": "t3.inf",
+                "time": 1707237697419
+            },
+            {
+                "stepId": "STEP3",
+                "stepName": "Url: Search Flights Button",
+                "infFile": "t4.inf",
+                "time": 1707237699037
+            },
+            {
+                "stepId": "STEP4",
+                "stepName": "Submit Data: reservations.pl",
+                "infFile": "t6.inf",
+                "time": 1707237704486
+            },
+            {
+                "stepId": "STEP5",
+                "stepName": "Submit Data: reservations.pl_2",
+                "infFile": "t7.inf",
+                "time": 1707237709840
+            },
+            {
+                "stepId": "STEP6",
+                "stepName": "Submit Data: reservations.pl_3",
+                "infFile": "t8.inf",
+                "time": 1707237715210
+            },
+            {
+                "stepId": "STEP7",
+                "stepName": "Url: Itinerary Button",
+                "infFile": "t9.inf",
+                "time": 1707237721063
+            },
+            {
+                "stepId": "STEP8",
+                "stepName": "Url: SignOff Button",
+                "infFile": "t10.inf",
+                "time": 1707237726684
+            }
+        ],
+        "transactions": [
+            {
+                "transactionName": "open_main_page",
+                "rawStartTime": 1707237694035,
+                "rawEndTime": 1707237694755,
+                "thinkTime": 0.0,
+                "wastedTime": 0.07236981391906738
+            },
+            {
+                "transactionName": "login",
+                "rawStartTime": 1707237696797,
+                "rawEndTime": 1707237697421,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005749225616455078
+            },
+            {
+                "transactionName": "open_search_page",
+                "rawStartTime": 1707237698464,
+                "rawEndTime": 1707237699087,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0059299468994140629
+            },
+            {
+                "transactionName": "search_tickets",
+                "rawStartTime": 1707237704126,
+                "rawEndTime": 1707237704515,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0063359737396240238
+            },
+            {
+                "transactionName": "select_ticket",
+                "rawStartTime": 1707237709551,
+                "rawEndTime": 1707237709847,
+                "thinkTime": 0.0,
+                "wastedTime": 0.00558018684387207
+            },
+            {
+                "transactionName": "buy_ticket",
+                "rawStartTime": 1707237714882,
+                "rawEndTime": 1707237715221,
+                "thinkTime": 0.0,
+                "wastedTime": 0.004863739013671875
+            },
+            {
+                "transactionName": "open_itinerary_page",
+                "rawStartTime": 1707237720267,
+                "rawEndTime": 1707237721075,
+                "thinkTime": 0.0,
+                "wastedTime": 0.005482673645019531
+            },
+            {
+                "transactionName": "logout",
+                "rawStartTime": 1707237726121,
+                "rawEndTime": 1707237726699,
+                "thinkTime": 0.0,
+                "wastedTime": 0.0045299530029296879
+            },
+            {
+                "transactionName": "UC_02_buy_ticket",
+                "rawStartTime": 1707237694020,
+                "rawEndTime": 1707237726714,
+                "thinkTime": 28.059419000000003,
+                "wastedTime": 0.11084151268005371
+            }
+        ]
+    }
+]

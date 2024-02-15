@@ -1,0 +1,1147 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"></meta>
+<title>Analysis Summary Report</title>
+<link href="bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="dataTables.bootstrap4.min.css"/>
+<link rel="stylesheet" type="text/css" href="summarypage.css"/>
+<script type="text/javascript" src="jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="datatables.js"></script>
+<script type="text/javascript" src="summarypage.js"></script>
+<script type="text/javascript" src="jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="bootstrap.js"></script>
+<script type="text/javascript" src="dataTables.bootstrap4.min.js"></script>
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="data.js"></script>
+</head>
+<body class="main">
+        <div id="loading" class="loader">
+        </div>
+        <div id="mainContainer" class="container-fluid hidden pt-1">
+
+
+        <div class="flex flex-top rectangle-top align-items-center ml-0 mr-0">
+        <div class="pl-2 pr-2 item border-right top-section run-time">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Calendar.svg" class="top-icon-calendar">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">14.02.2024     20:52:50</div>
+        <div class="scenario-settings-title">Run Time</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section duration">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Time.svg" class="top-icon-time">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data">1h: 11m: 5s</div>
+        <div class="scenario-settings-title">Duration</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section scenario-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Project.svg" class="top-icon-project">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="sp-tooltip">maximum_perf_validation_test</div>
+        <div class="scenario-settings-title">Scenario Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="pl-2 pr-2 item border-right top-section result-name">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img src="Icons_Test.svg" class="top-icon-test">
+        </div>
+        <div class="p-2 item min-width">
+        <div class="scenario-settings-data" id="rt-tooltip">res_load_validat_45</div>
+        <div class="scenario-settings-title">Result Name</div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="p-2 item top-section sla-section">
+        <div class="flex flex-top">
+        <div class="p-2 item top-icon-container">
+        <img id="SLAIcon" src="Icons_SLA.svg" class="top-icon-sla">
+        </div>
+        <div class="p-2 item">
+        <div class="scenario-settings-data" id="SLAStatus">Defined</div>
+        <div class="scenario-settings-title">SLA</div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+        <div class="mt-1"><div class="notes-placeholder"></div></div>
+        <div class="margin-top-25">
+        <div class="flex flex-top">
+
+
+        <div class="item scheduler">
+        <div><div id=SchedulerGraphData class=hidden>
+  <div id=GroupCount>1</div>
+  <table id="Values_0" title="Global Schedule">
+  <tr>
+    <td>0</td><td>0</td>
+  </tr>
+
+  <tr>
+    <td>0</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>6</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>12</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>18</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>24</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>30</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>36</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>42</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>48</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>54</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>60</td><td>11</td>
+  </tr>
+
+  <tr>
+    <td>66</td><td>12</td>
+  </tr>
+
+  <tr>
+    <td>72</td><td>13</td>
+  </tr>
+
+  <tr>
+    <td>78</td><td>14</td>
+  </tr>
+
+  <tr>
+    <td>84</td><td>15</td>
+  </tr>
+
+  <tr>
+    <td>90</td><td>16</td>
+  </tr>
+
+  <tr>
+    <td>96</td><td>17</td>
+  </tr>
+
+  <tr>
+    <td>102</td><td>18</td>
+  </tr>
+
+  <tr>
+    <td>108</td><td>19</td>
+  </tr>
+
+  <tr>
+    <td>114</td><td>20</td>
+  </tr>
+
+  <tr>
+    <td>120</td><td>21</td>
+  </tr>
+
+  <tr>
+    <td>126</td><td>22</td>
+  </tr>
+
+  <tr>
+    <td>132</td><td>23</td>
+  </tr>
+
+  <tr>
+    <td>138</td><td>24</td>
+  </tr>
+
+  <tr>
+    <td>144</td><td>25</td>
+  </tr>
+
+  <tr>
+    <td>150</td><td>26</td>
+  </tr>
+
+  <tr>
+    <td>156</td><td>27</td>
+  </tr>
+
+  <tr>
+    <td>162</td><td>28</td>
+  </tr>
+
+  <tr>
+    <td>168</td><td>29</td>
+  </tr>
+
+  <tr>
+    <td>174</td><td>30</td>
+  </tr>
+
+  <tr>
+    <td>180</td><td>31</td>
+  </tr>
+
+  <tr>
+    <td>186</td><td>32</td>
+  </tr>
+
+  <tr>
+    <td>192</td><td>33</td>
+  </tr>
+
+  <tr>
+    <td>198</td><td>34</td>
+  </tr>
+
+  <tr>
+    <td>204</td><td>35</td>
+  </tr>
+
+  <tr>
+    <td>210</td><td>36</td>
+  </tr>
+
+  <tr>
+    <td>216</td><td>37</td>
+  </tr>
+
+  <tr>
+    <td>222</td><td>38</td>
+  </tr>
+
+  <tr>
+    <td>228</td><td>39</td>
+  </tr>
+
+  <tr>
+    <td>234</td><td>40</td>
+  </tr>
+
+  <tr>
+    <td>240</td><td>41</td>
+  </tr>
+
+  <tr>
+    <td>246</td><td>42</td>
+  </tr>
+
+  <tr>
+    <td>252</td><td>43</td>
+  </tr>
+
+  <tr>
+    <td>258</td><td>44</td>
+  </tr>
+
+  <tr>
+    <td>264</td><td>45</td>
+  </tr>
+
+  <tr>
+    <td>3984</td><td>45</td>
+  </tr>
+
+  <tr>
+    <td>3984</td><td>44</td>
+  </tr>
+
+  <tr>
+    <td>3990</td><td>43</td>
+  </tr>
+
+  <tr>
+    <td>3996</td><td>42</td>
+  </tr>
+
+  <tr>
+    <td>4002</td><td>41</td>
+  </tr>
+
+  <tr>
+    <td>4008</td><td>40</td>
+  </tr>
+
+  <tr>
+    <td>4014</td><td>39</td>
+  </tr>
+
+  <tr>
+    <td>4020</td><td>38</td>
+  </tr>
+
+  <tr>
+    <td>4026</td><td>37</td>
+  </tr>
+
+  <tr>
+    <td>4032</td><td>36</td>
+  </tr>
+
+  <tr>
+    <td>4038</td><td>35</td>
+  </tr>
+
+  <tr>
+    <td>4044</td><td>34</td>
+  </tr>
+
+  <tr>
+    <td>4050</td><td>33</td>
+  </tr>
+
+  <tr>
+    <td>4056</td><td>32</td>
+  </tr>
+
+  <tr>
+    <td>4062</td><td>31</td>
+  </tr>
+
+  <tr>
+    <td>4068</td><td>30</td>
+  </tr>
+
+  <tr>
+    <td>4074</td><td>29</td>
+  </tr>
+
+  <tr>
+    <td>4080</td><td>28</td>
+  </tr>
+
+  <tr>
+    <td>4086</td><td>27</td>
+  </tr>
+
+  <tr>
+    <td>4092</td><td>26</td>
+  </tr>
+
+  <tr>
+    <td>4098</td><td>25</td>
+  </tr>
+
+  <tr>
+    <td>4104</td><td>24</td>
+  </tr>
+
+  <tr>
+    <td>4110</td><td>23</td>
+  </tr>
+
+  <tr>
+    <td>4116</td><td>22</td>
+  </tr>
+
+  <tr>
+    <td>4122</td><td>21</td>
+  </tr>
+
+  <tr>
+    <td>4128</td><td>20</td>
+  </tr>
+
+  <tr>
+    <td>4134</td><td>19</td>
+  </tr>
+
+  <tr>
+    <td>4140</td><td>18</td>
+  </tr>
+
+  <tr>
+    <td>4146</td><td>17</td>
+  </tr>
+
+  <tr>
+    <td>4152</td><td>16</td>
+  </tr>
+
+  <tr>
+    <td>4158</td><td>15</td>
+  </tr>
+
+  <tr>
+    <td>4164</td><td>14</td>
+  </tr>
+
+  <tr>
+    <td>4170</td><td>13</td>
+  </tr>
+
+  <tr>
+    <td>4176</td><td>12</td>
+  </tr>
+
+  <tr>
+    <td>4182</td><td>11</td>
+  </tr>
+
+  <tr>
+    <td>4188</td><td>10</td>
+  </tr>
+
+  <tr>
+    <td>4194</td><td>9</td>
+  </tr>
+
+  <tr>
+    <td>4200</td><td>8</td>
+  </tr>
+
+  <tr>
+    <td>4206</td><td>7</td>
+  </tr>
+
+  <tr>
+    <td>4212</td><td>6</td>
+  </tr>
+
+  <tr>
+    <td>4218</td><td>5</td>
+  </tr>
+
+  <tr>
+    <td>4224</td><td>4</td>
+  </tr>
+
+  <tr>
+    <td>4230</td><td>3</td>
+  </tr>
+
+  <tr>
+    <td>4236</td><td>2</td>
+  </tr>
+
+  <tr>
+    <td>4242</td><td>1</td>
+  </tr>
+
+  <tr>
+    <td>4248</td><td>0</td>
+  </tr>
+
+
+  </table>
+</div>
+<div id=SchedulerGraph class=scheduler-graph>
+</div>
+</div>
+        </div>
+
+
+        <div class="pl-3 pr-3 item top-five-table flex flex-top-column flex-grow">
+        <div class="header1 item mt-1" id="topTransactionsTitle">TOP TRANSACTIONS BY DURATION</div>
+
+
+<table id="TopTransactionsTable" class="table item mt-2" summary="Top five worst transactions"  >
+<thead><tr  bgcolor="" >
+        <th id="LraTransaction Name&nbsp;" vAlign="top"><span class="Verdana2">Transaction Name&nbsp;</span></th>
+        <th id="LraAverage&nbsp;" vAlign="top"><span class="Verdana2">Average&nbsp;</span></th>
+        <th id="LraMinimum&nbsp;" vAlign="top"><span class="Verdana2">Minimum&nbsp;</span></th>
+        <th id="LraMaximum&nbsp;" vAlign="top"><span class="Verdana2">Maximum&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC_02_buy_ticket</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>5,004</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>3,98</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>8,747</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC_01_ticket_search</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>3,743</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,681</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>9,473</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC_03_check_itinerary</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>3,118</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,298</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>4,472</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC_04_remove_itinerary</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>2,879</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,034</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>7,891</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <div>UC_05_register_user</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>2,266</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>1,553</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,676</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+
+
+        <div class="pl-3 item statistics-pane flex flex-top-column flex-grow">
+        <div class="p-2 mt-1 item header1">STATISTICS</div>
+        <div class="p-2 item flex flex-top flex-grow">
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("VuserStateGraph")'>Maximum Running Vusers</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Total Throughput (bytes)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("Throughput")'>Average Throughput (B/s)</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Total Hits:</a></div>
+        <div class="item flex-grow pr-1 statistics-name"><a href="#" onclick='navigateTo("HitsperSecond")'>Average Hits per Second</a></div>
+        </div>
+
+
+        <div class="pr-2 flex flex-top-column item statistic-column">
+        <div class="item sla-status pr-1 placeholder flex-grow"></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        <div class="item sla-status pr-1 flex-grow"><img src="Status_NoData.svg"><div class="hidden">3</div></div>
+        </div>
+
+
+        <div class="flex flex-top-column item statistic-column">
+        <div headers="LraMaximumRunningVusers" class="item statistic-values flex-grow">45</div>
+        <div headers="LraTotalThroughput" class="item statistic-values flex-grow">742 449 074</div>
+        <div headers="LraAverageThroughput" class="item statistic-values flex-grow">206 235,854</div>
+        <div headers="LraTotalHits" class="item statistic-values flex-grow">117 171</div>
+        <div headers="LraAverageHitsPerSecond" class="item statistic-values flex-grow">32,547</div>
+        </div>
+        </div>
+
+
+        </div>
+        </div>
+        </div>
+
+
+        <div id="SLA-title" class="row margin-top-35 hidden">
+        <div class="col">
+        <div class="sla-title">SCENARIO BEHAVIOR OVER TIME</div>
+        </div>
+        </div>
+
+
+        <div id="SLA-description" class="row margin-top-12 hidden">
+        <div class="col">
+        <div class="sla-description">The SLA status of the following measurements displayed over time</div>
+        </div>
+        </div>
+
+
+        <div class="row margin-top-14">
+        <div class="col">
+          <table id="SLATable" class="table">            <tr>
+              <th><div class="">Measurement Name</div></th>
+              <th colspan="100%"><div class="">Time Ranges</div></th>
+           </tr>
+      <tr>
+        <td class="errors-title-cell" title="Application Under Test errors (average per second)"><div>Application Under Test Errors</div></td>
+               <td class="bordergridcell" StartTime=390  EndTime=590 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=590  EndTime=790 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=790  EndTime=990 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=990  EndTime=1190 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=1190  EndTime=1390 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=1390  EndTime=1590 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=1590  EndTime=1790 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=1790  EndTime=1990 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=1990  EndTime=2190 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=2190  EndTime=2390 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=2390  EndTime=2590 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=2590  EndTime=2790 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=2790  EndTime=2990 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=2990  EndTime=3190 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=3190  EndTime=3390 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=3390  EndTime=3590 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=3590  EndTime=3790 title="0" ><div>0</div></td>
+               <td class="bordergridcell" StartTime=3790  EndTime=3990 title="0" ><div>0</div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">buy_ticket</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">complete_form_and_register</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">login</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">logout</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">open_itinerary_page</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">open_main_page</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">open_menu</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">open_search_page</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">open_sign_up_page</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">remove_itinerary</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">search_tickets</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>        <td><div class="tx-sla">select_ticket</div></td>
+               <td class="gridcell sla-start-cell" StartTime=390  EndTime=590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=590  EndTime=790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=790  EndTime=990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=990  EndTime=1190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1190  EndTime=1390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1390  EndTime=1590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1590  EndTime=1790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1790  EndTime=1990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=1990  EndTime=2190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2190  EndTime=2390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2390  EndTime=2590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2590  EndTime=2790  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2790  EndTime=2990  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=2990  EndTime=3190  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3190  EndTime=3390  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3390  EndTime=3590  > <div class="rule-ok"></div></td>
+               <td class="gridcell" StartTime=3590  EndTime=3790  > <div class="rule-ok"></div></td>
+               <td class="gridcell sla-end-cell" StartTime=3790  EndTime=3990  > <div class="rule-ok"></div></td>
+      </tr>
+      <tr>
+      <td>
+      </td>
+               <td class="timegridcell" id="StartTimeStamp" startVal="390"><div>00:06:30</div></td>
+               <td class="timegridcell"><div>00:09:50</div></td>
+               <td class="timegridcell"><div>00:13:10</div></td>
+               <td class="timegridcell"><div>00:16:30</div></td>
+               <td class="timegridcell"><div>00:19:50</div></td>
+               <td class="timegridcell"><div>00:23:10</div></td>
+               <td class="timegridcell"><div>00:26:30</div></td>
+               <td class="timegridcell"><div>00:29:50</div></td>
+               <td class="timegridcell"><div>00:33:10</div></td>
+               <td class="timegridcell"><div>00:36:30</div></td>
+               <td class="timegridcell"><div>00:39:50</div></td>
+               <td class="timegridcell"><div>00:43:10</div></td>
+               <td class="timegridcell"><div>00:46:30</div></td>
+               <td class="timegridcell"><div>00:49:50</div></td>
+               <td class="timegridcell"><div>00:53:10</div></td>
+               <td class="timegridcell"><div>00:56:30</div></td>
+               <td class="timegridcell"><div>00:59:50</div></td>
+               <td class="timegridcell" id="EndTimeStamp" endVal="3990"><div>01:03:10</div></td>
+      </tr>
+</table>
+        </div>
+        </div>
+
+
+        <div class="row margin-top-35">
+        <div class="col">
+        <div class="header1" id="transactionsTitle">TRANSACTIONS</div>
+        </div>
+        </div>
+
+
+        <div class="row">
+        <div class="col">
+
+
+<table id="TransactionSummaryTable" class="table"  >
+<thead><tr  class="hidden" >
+        <th id="Lra" vAlign="top"><span class="Verdana2"></span></th>
+        <th id="LraPassed&nbsp;" vAlign="top"><span class="Verdana2">Passed&nbsp;</span></th>
+        <th id="LraFailed&nbsp;" vAlign="top"><span class="Verdana2">Failed&nbsp;</span></th>
+        <th id="LraStopped&nbsp;" vAlign="top"><span class="Verdana2">Stopped&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="Lra" class="styling_2">        <div>TOTAL</div></td>
+        <td headers="LraPassed&nbsp;" class="styling_2">        <div>34 403</div></td>
+        <td headers="LraFailed&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStopped&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+        </div>
+
+
+<table id="TransactionsTable" class="table table-responsive-xl" summary="Transactions statistics summary table"  >
+<thead><tr  bgcolor="" >
+        <th id="LraTransaction Name&nbsp;" vAlign="top"><span class="Verdana2">Transaction Name&nbsp;</span></th>
+<th id="Status" class="table_header" vAlign="top" width="80"><span class="Verdana2">SLA Status</span></th>        <th id="LraMinimum&nbsp;" vAlign="top"><span class="Verdana2">Minimum&nbsp;</span></th>
+        <th id="LraAverage&nbsp;" vAlign="top"><span class="Verdana2">Average&nbsp;</span></th>
+        <th id="LraMaximum&nbsp;" vAlign="top"><span class="Verdana2">Maximum&nbsp;</span></th>
+        <th id="LraStd. Deviation&nbsp;" vAlign="top"><span class="Verdana2">Std. Deviation&nbsp;</span></th>
+        <th id="Lra90 Percent&nbsp;" vAlign="top"><span class="Verdana2">90 Percent&nbsp;</span></th>
+        <th id="LraPass&nbsp;" vAlign="top"><span class="Verdana2">Pass&nbsp;</span></th>
+        <th id="LraFail&nbsp;" vAlign="top"><span class="Verdana2">Fail&nbsp;</span></th>
+        <th id="LraStop&nbsp;" vAlign="top"><span class="Verdana2">Stop&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(buy_ticket)0000")' span class="VerBluUnd7">buy_ticket</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,228</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,403</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,858</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,1</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,521</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 632</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(complete_form_and_register)0000")' span class="VerBluUnd7">complete_form_and_register</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,219</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,347</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,698</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,076</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,446</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 001</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(login)0000")' span class="VerBluUnd7">login</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,457</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,817</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,904</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,222</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,154</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>4 092</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(logout)0000")' span class="VerBluUnd7">logout</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,421</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,684</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,223</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,121</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,842</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>3 397</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(open_itinerary_page)0000")' span class="VerBluUnd7">open_itinerary_page</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,466</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,862</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,863</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,178</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,097</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>2 890</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(open_main_page)0000")' span class="VerBluUnd7">open_main_page</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,448</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,748</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,754</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,173</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,978</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>5 092</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(open_menu)0000")' span class="VerBluUnd7">open_menu</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,473</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,814</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,899</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,216</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>1,095</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 001</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(open_search_page)0000")' span class="VerBluUnd7">open_search_page</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,455</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,731</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,633</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,135</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,906</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>2 838</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(open_sign_up_page)0000")' span class="VerBluUnd7">open_sign_up_page</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,229</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,383</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,749</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,093</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,504</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 000</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(remove_itinerary)0000")' span class="VerBluUnd7">remove_itinerary</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,241</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,515</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>1,173</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,156</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,73</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>694</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(search_tickets)0000")' span class="VerBluUnd7">search_tickets</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,222</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,359</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,825</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,085</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,474</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>2 837</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(select_ticket)0000")' span class="VerBluUnd7">select_ticket</td>
+<td><img src="Status_Success.svg"><div class="hidden">1</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>0,21</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>0,365</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>0,81</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,086</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>0,474</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>2 837</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC_01_ticket_search)0000")' span class="VerBluUnd7">UC_01_ticket_search</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,681</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>3,743</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>9,473</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,442</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>4,236</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 202</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC_02_buy_ticket)0000")' span class="VerBluUnd7">UC_02_buy_ticket</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>3,98</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>5,004</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>8,747</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,459</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>5,6</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 632</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC_03_check_itinerary)0000")' span class="VerBluUnd7">UC_03_check_itinerary</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,298</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>3,118</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>4,472</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,355</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>3,617</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>563</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC_04_remove_itinerary)0000")' span class="VerBluUnd7">UC_04_remove_itinerary</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>2,034</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>2,879</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>7,891</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,407</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>3,359</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>694</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+      <tr bgcolor="">
+        <td headers="LraTransaction Name&nbsp;" class="styling_2">        <a href="#" onclick='navigateTo("ResponseTime0000(UC_05_register_user)0000")' span class="VerBluUnd7">UC_05_register_user</td>
+<td><img src="Status_NoData.svg"><div class="hidden">3</div></td>
+        <td headers="LraMinimum&nbsp;" class="styling_2">        <div>1,553</div></td>
+        <td headers="LraAverage&nbsp;" class="styling_2">        <div>2,266</div></td>
+        <td headers="LraMaximum&nbsp;" class="styling_2">        <div>3,676</div></td>
+        <td headers="LraStd. Deviation&nbsp;" class="styling_2">        <div>0,297</div></td>
+        <td headers="Lra90 Percent&nbsp;" class="styling_2">        <div>2,665</div></td>
+        <td headers="LraPass&nbsp;" class="styling_2">        <div>1 001</div></td>
+        <td headers="LraFail&nbsp;" class="styling_2">        <div>0</div></td>
+        <td headers="LraStop&nbsp;" class="styling_2">        <div>0</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+<a name="HTTP_Responses_Summary"></a>
+<table id="HTTPCodesTable" class="table table-responsive-xl margin-bottom-20"  >
+<thead><tr  bgcolor="" >
+        <th id="LraCodes&nbsp;" vAlign="top"><span class="Verdana2">Codes&nbsp;</span></th>
+        <th id="LraTotal&nbsp;" vAlign="top"><span class="Verdana2">Total&nbsp;</span></th>
+        <th id="LraPer second&nbsp;" vAlign="top"><span class="Verdana2">Per second&nbsp;</span></th>
+</tr></thead><tbody>      <tr bgcolor="">
+        <td headers="LraCodes&nbsp;" class="styling_2">        <div>HTTP_200</div></td>
+        <td headers="LraTotal&nbsp;" class="styling_2">        <div>117 171</div></td>
+        <td headers="LraPer second&nbsp;" class="styling_2">        <div>32,547</div></td>
+      </tr>
+</tbody>
+
+</table> 
+
+        </div>
+
+
+<table  >
+      <div>
+
+
+      </div>
+</table> 
+
+</body></html>
+

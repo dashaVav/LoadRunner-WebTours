@@ -1,0 +1,15 @@
+[t2]
+FileName1=t2.htm
+URL1=http://127.0.0.1:8090/WebTours/login.pl
+Total=2
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=t2_RequestBody.txt
+ResponseHeaderFile=t2_ResponseHeader.txt
+ContentType=text/html
+SnapshotXmlFile=snapshot_2.xml
+FileName2=t2f1.htm
+URL2=http://127.0.0.1:8090/WebTours/error.pl?error=badPassword
+FrameIndex2=0.1
+UseFrameIndex=1
+[ProtocolInfo]
+ProtocolId=QTWeb

@@ -1,0 +1,9 @@
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 01 Feb 2024 12:00:22 GMT,Thu, 01 Feb 2024 12:00:22 GMT
+Cache-control: no-cache
+Expires: 0,5s
+Content-length: 1074
+Content-type: text/html; charset=ISO-8859-1
+Set-cookie: MTUserInfo=firstName&Dasha&address2&12345&username&dasha&hash&97&lastName&Vavilova&address1&Moscow&creditCard&&expDate&; path=/
+

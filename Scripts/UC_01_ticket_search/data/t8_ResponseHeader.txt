@@ -1,0 +1,9 @@
+HTTP/1.1 200 Ok
+Server: Xitami
+Date: Thu, 01 Feb 2024 08:10:31 GMT,Thu, 01 Feb 2024 08:10:31 GMT
+Cache-control: no-cache
+Expires: 0,Wed, 31 Jan 2024 08:10:31 GMT
+Content-length: 2408
+Content-type: text/html; charset=ISO-8859-1
+Set-cookie: MTUserInfo=firstName&James&username&007&address2&WC2E7BN&hash&55&address1&45%20Wellington%20St%2C%20London%2C%20United%20Kingdom&lastName&Bond%0A; path=/
+

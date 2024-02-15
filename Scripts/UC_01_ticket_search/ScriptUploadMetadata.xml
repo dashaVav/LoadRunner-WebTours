@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VugenScriptMetadata>
+  <ScriptName>UC_01_ticket_search</ScriptName>
+  <Protocol>Web - HTTP/HTML</Protocol>
+  <ActionFiles>
+    <FileEntry Name="vuser_init.c" Filter="2" />
+    <FileEntry Name="Action.c" Filter="2" />
+    <FileEntry Name="vuser_end.c" Filter="2" />
+  </ActionFiles>
+  <GeneralFiles>
+    <FileEntry Name="UC_01_ticket_search.usr" Filter="4" />
+    <FileEntry Name="default.cfg" Filter="4" />
+    <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="UC_01_ticket_search.prm" Filter="2" />
+    <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="combined_UC_01_ticket_search.c" Filter="2" />
+    <FileEntry Name="pre_cci.c" Filter="2" />
+    <FileEntry Name="171265802440.idx" Filter="1" />
+    <FileEntry Name="181585954440.idx" Filter="1" />
+    <FileEntry Name="181615213440.idx" Filter="1" />
+    <FileEntry Name="203128543440.idx" Filter="1" />
+    <FileEntry Name="213975412440.idx" Filter="1" />
+    <FileEntry Name="21397541244_9FW.601.idx" Filter="1" />
+    <FileEntry Name="21397541244_fGl.103.idx" Filter="1" />
+    <FileEntry Name="21397541244_GWS.275.idx" Filter="1" />
+    <FileEntry Name="21397541244_IRe.93.idx" Filter="1" />
+    <FileEntry Name="21397541244_o2x.109.idx" Filter="1" />
+    <FileEntry Name="21397541244_VoN.809.idx" Filter="1" />
+    <FileEntry Name="40913554440.idx" Filter="1" />
+    <FileEntry Name="51327524440.idx" Filter="1" />
+    <FileEntry Name="5132752444_3Jh.391.idx" Filter="1" />
+    <FileEntry Name="5132752444_daY.447.idx" Filter="1" />
+    <FileEntry Name="5132752444_dHu.547.idx" Filter="1" />
+    <FileEntry Name="5132752444_gZb.91.idx" Filter="1" />
+    <FileEntry Name="5132752444_lIO.871.idx" Filter="1" />
+    <FileEntry Name="5132752444_yOn.891.idx" Filter="1" />
+    <FileEntry Name="5132752444_yt7.803.idx" Filter="1" />
+    <FileEntry Name="5132752444_zBX.37.idx" Filter="1" />
+    <FileEntry Name="address1.dat{lastName}" Filter="1" />
+    <FileEntry Name="address2.dat" Filter="1" />
+    <FileEntry Name="Bookmarks.xml" Filter="1" />
+    <FileEntry Name="Breakpoints.xml" Filter="1" />
+    <FileEntry Name="city.dat" Filter="1" />
+    <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
+    <FileEntry Name="creditCard.dat" Filter="1" />
+    <FileEntry Name="data.zip" Filter="1" />
+    <FileEntry Name="logfile.log" Filter="1" />
+    <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv8jC.779.log" Filter="1" />
+    <FileEntry Name="mdrv9rc.441.log" Filter="1" />
+    <FileEntry Name="mdrvc4r.947.log" Filter="1" />
+    <FileEntry Name="mdrvdg4.795.log" Filter="1" />
+    <FileEntry Name="mdrvFEG.539.log" Filter="1" />
+    <FileEntry Name="mdrvHNd.521.log" Filter="1" />
+    <FileEntry Name="mdrvhOs.95.log" Filter="1" />
+    <FileEntry Name="mdrvi5j.955.log" Filter="1" />
+    <FileEntry Name="mdrvliM.697.log" Filter="1" />
+    <FileEntry Name="mdrvrlw.269.log" Filter="1" />
+    <FileEntry Name="mdrvugA.717.log" Filter="1" />
+    <FileEntry Name="mdrvY4Z.217.log" Filter="1" />
+    <FileEntry Name="mdrv_cmd.txt" Filter="1" />
+    <FileEntry Name="NewParam.dat" Filter="1" />
+    <FileEntry Name="options.txt" Filter="1" />
+    <FileEntry Name="output.bak" Filter="1" />
+    <FileEntry Name="output.txt" Filter="1" />
+    <FileEntry Name="OutputColoringDatabase.json" Filter="1" />
+    <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
+    <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="seatPref.dat" Filter="1" />
+    <FileEntry Name="seatType.dat" Filter="1" />
+    <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
+    <FileEntry Name="TransactionsData.db" Filter="1" />
+    <FileEntry Name="UC_01_ticket_search.c.pickle" Filter="1" />
+    <FileEntry Name="UC_01_ticket_search.ci" Filter="1" />
+    <FileEntry Name="UC_01_ticket_search.prm.bak" Filter="1" />
+    <FileEntry Name="UC_02_buy_ticket.prm.bak" Filter="1" />
+    <FileEntry Name="UserTasks.xml" Filter="1" />
+    <FileEntry Name="data\" Filter="1" />
+    <FileEntry Name="result1\" Filter="1" />
+  </GeneralFiles>
+</VugenScriptMetadata>

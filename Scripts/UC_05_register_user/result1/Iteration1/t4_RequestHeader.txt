@@ -1,0 +1,14 @@
+GET /WebTours/welcome.pl?page=menus HTTP/1.1
+Referer: http://127.0.0.1:8090/WebTours/login.pl
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: frame
+Sec-Fetch-Mode: navigate
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Notion/3.1.1 Chrome/120.0.6099.56 Electron/28.0.0 Safari/537.36
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.5
+Accept: */*
+Connection: Keep-Alive
+Host: 127.0.0.1:8090
+Cookie: MSO=SID&1707237091&MSO_Comments&on&MSO_ServerErrorsProb&50&MSO_ServerLoadProb&50; MTUserInfo=firstName&Bloom&address2&90210&username&klvxkeqva&hash&33&lastName&Peters&address1&123%20Magic%20Lane%20Gardenia%20CA&creditCard&&expDate&
+
