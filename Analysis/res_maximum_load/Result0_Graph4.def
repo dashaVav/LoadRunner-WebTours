@@ -18,6 +18,36 @@ ActivePage=0
 Count=1
 
 [UIInfo0]
+Title0=UC_05_register_user
+Color0=8747520
+Active0=0
+Scale0=1
+ScaleState0=User
+UITitle0=
+Title1=UC_04_remove_itinerary
+Color1=7887631
+Active1=0
+Scale1=1
+ScaleState1=User
+UITitle1=
+Title2=UC_03_check_itinerary
+Color2=3070145
+Active2=0
+Scale2=1
+ScaleState2=User
+UITitle2=
+Title3=UC_02_buy_ticket
+Color3=12102544
+Active3=0
+Scale3=1
+ScaleState3=User
+UITitle3=
+Title4=UC_01_ticket_search
+Color4=9788404
+Active4=0
+Scale4=1
+ScaleState4=User
+UITitle4=
 
 [MoreUiInfos]
 ShowPieMarks=1

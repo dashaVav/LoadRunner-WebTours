@@ -30,8 +30,8 @@ ActionClearFilterEnabled=0
 [Graph Definitions]
 ChartFile=C:\Users\HUAWEI\Documents\loadrunner_webtours\Analysis\res_maximum_load\Result0_Graph13.cfg
 View3D=0
-IntLegendVisible=0
-Chart3dPercent=1
+IntLegendVisible=1
+Chart3dPercent=10
 Pen_Style=0
 Pen_SmallDots=0
 Pen_Visible=1
